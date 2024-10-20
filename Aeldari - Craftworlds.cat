@@ -2494,6 +2494,7 @@ Once per phase, before making a dice roll for a model or unit from your army wi
         </infoLink>
         <infoLink name="Deep Strike" id="5c06-8017-7a0b-a91f" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
         <infoLink name="Strands of Fate" id="ed65-68f9-54b5-f816" hidden="false" type="rule" targetId="7b8a-26a5-c470-1ff1"/>
+        <infoLink name="Vulnerable Flank" id="e181-abc4-108f-37b6" hidden="false" type="rule" targetId="00ae-5be8-e442-13bd"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="e86d-ee7c-7733-972e" id="b898-87fc-5719-3432" primary="true" name="Heavy Support"/>

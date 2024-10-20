@@ -338,17 +338,10 @@
               <profiles>
                 <profile name="Medipack" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="12c6-8f73-775f-fd8e">
                   <characteristics>
-                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Models in the bearer’s unit have the Feel No Pain 6+ ability.</characteristic>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Once per battle round, the first time a saving throw is failed for this model, the Damage characteristic of that attack is changed to 0.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Feel No Pain" id="54b8-41e2-c4d9-2e6d" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
-                  <modifiers>
-                    <modifier type="append" value="6+" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
               <costs>
                 <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="5"/>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
