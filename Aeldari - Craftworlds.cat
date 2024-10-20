@@ -2579,15 +2579,14 @@ Once per phase, before making a dice roll for a model or unit from your army wi
         <profile name="Avatar of Khaine" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="d8dc-f714-1edf-e85d">
           <characteristics>
             <characteristic name="Move" typeId="9d17-06ec-83cb-b046">10&quot;</characteristic>
-            <characteristic name="S" typeId="825e-8d9a-dee0-4dd7">7</characteristic>
             <characteristic name="T" typeId="d9b2-02e7-3454-c645">12</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">14</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">6</characteristic>
             <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">10</characteristic>
             <characteristic name="Save" typeId="5290-26c2-5952-820e">2+</characteristic>
             <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
-            <characteristic name="WS" typeId="e669-c236-c599-6366">10</characteristic>
-            <characteristic name="BS" typeId="8704-5772-2d99-d251">10</characteristic>
+            <characteristic name="WS" typeId="e669-c236-c599-6366">8</characteristic>
+            <characteristic name="BS" typeId="8704-5772-2d99-d251">8</characteristic>
           </characteristics>
         </profile>
       </profiles>

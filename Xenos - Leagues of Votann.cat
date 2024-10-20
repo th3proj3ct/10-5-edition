@@ -13,7 +13,7 @@
         </profile>
         <profile name="Hearthkyn Warriors" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="15e9-df12-30b7-42cb">
           <characteristics>
-            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
             <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">1</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
@@ -26,7 +26,7 @@
         </profile>
         <profile name="Theyn" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="aedd-1581-8a26-c5f1">
           <characteristics>
-            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
             <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">2</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
@@ -41,6 +41,7 @@
       <infoLinks>
         <infoLink name="Void Armour" id="a239-9c95-5ad3-220d" hidden="false" type="profile" targetId="99f3-23f6-d2a3-3d65"/>
         <infoLink name="Eye of the Ancestors" id="dae2-a32d-4cfa-ea69" hidden="false" type="rule" targetId="351a-a702-9080-7f08"/>
+        <infoLink name="Steady Advance" id="6918-b4d9-8628-92f3" hidden="false" type="profile" targetId="d785-90b7-a968-d81a"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="21e3-83ef-ec63-48cc" id="9003-bd44-28f1-c2a4" primary="false" name="Infantry"/>
@@ -403,7 +404,7 @@
       <profiles>
         <profile name="Kâhl" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="2e4d-3b38-ed87-7de2">
           <characteristics>
-            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
             <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">4</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
@@ -713,6 +714,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
         <infoLink name="Leader" id="b8b2-1ac7-9247-ce63" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Void Armour" id="2f0c-4f51-81bc-0113" hidden="false" type="profile" targetId="99f3-23f6-d2a3-3d65"/>
         <infoLink name="Eye of the Ancestors" id="98f9-ea64-4682-d604" hidden="false" type="rule" targetId="351a-a702-9080-7f08"/>
+        <infoLink name="Steady Advance" id="04ae-db62-44f5-ec24" hidden="false" type="profile" targetId="d785-90b7-a968-d81a"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="b30a-aa57-2633-ffe6" id="9682-c6ce-6aa3-d413" primary="true" name="Character"/>
@@ -727,7 +729,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
           <profiles>
             <profile name="Brôkhyr Iron-master" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="74b9-a22e-2f5e-59b7">
               <characteristics>
-                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                 <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
                 <characteristic name="W" typeId="26ad-6be9-20fc-87e8">4</characteristic>
                 <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
@@ -807,7 +809,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
           <profiles>
             <profile name="Ironkyn Assistant" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="aa5d-3f2c-e3e3-b05c">
               <characteristics>
-                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                 <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
                 <characteristic name="W" typeId="26ad-6be9-20fc-87e8">2</characteristic>
                 <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
@@ -862,7 +864,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
           <profiles>
             <profile name="E-COG" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="82cb-5891-67e2-d507">
               <characteristics>
-                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                 <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
                 <characteristic name="W" typeId="26ad-6be9-20fc-87e8">1</characteristic>
                 <characteristic name="I" typeId="816c-4b95-26f0-6cf9">2</characteristic>
@@ -900,7 +902,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
           <profiles>
             <profile name="E-COG" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="f094-d24c-5732-e521">
               <characteristics>
-                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                 <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
                 <characteristic name="W" typeId="26ad-6be9-20fc-87e8">1</characteristic>
                 <characteristic name="I" typeId="816c-4b95-26f0-6cf9">2</characteristic>
@@ -947,7 +949,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
           <profiles>
             <profile name="E-COG" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="7843-855f-8c86-757f">
               <characteristics>
-                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                 <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
                 <characteristic name="W" typeId="26ad-6be9-20fc-87e8">1</characteristic>
                 <characteristic name="I" typeId="816c-4b95-26f0-6cf9">2</characteristic>
@@ -1029,7 +1031,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
         </profile>
         <profile name="Einhyr Champion" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="d084-0450-7a53-d656">
           <characteristics>
-            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
             <characteristic name="T" typeId="d9b2-02e7-3454-c645">6</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">5</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
@@ -1061,6 +1063,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
         <infoLink name="Exo-armour" id="706f-3cd6-7ba2-ffb7" hidden="false" type="profile" targetId="e327-787d-4637-4834"/>
         <infoLink name="Void Armour" id="a938-6c7a-830a-2088" hidden="false" type="profile" targetId="99f3-23f6-d2a3-3d65"/>
         <infoLink name="Eye of the Ancestors" id="73c0-7391-5140-02d9" hidden="false" type="rule" targetId="351a-a702-9080-7f08"/>
+        <infoLink name="Steady Advance" id="0f86-ea9b-a7e7-2500" hidden="false" type="profile" targetId="d785-90b7-a968-d81a"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="b30a-aa57-2633-ffe6" id="2668-9ab6-27bd-aed6" primary="true" name="Character"/>
@@ -1157,6 +1160,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
         <infoLink name="Void Armour" id="152f-2d9f-6ca2-ab35" hidden="false" type="profile" targetId="99f3-23f6-d2a3-3d65"/>
         <infoLink name="Eye of the Ancestors" id="2f50-8532-7513-6b89" hidden="false" type="rule" targetId="351a-a702-9080-7f08"/>
         <infoLink name="Exo-armour" id="f954-a930-361e-c4c3" hidden="false" type="profile" targetId="e327-787d-4637-4834"/>
+        <infoLink name="Steady Advance" id="26f7-21ce-da5f-633c" hidden="false" type="profile" targetId="d785-90b7-a968-d81a"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="22bb-ea60-fdcb-8dc7" id="c7f6-52ad-c7d8-cd44" primary="true" name="Elite"/>
@@ -1171,7 +1175,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
           <profiles>
             <profile name="Hesyr" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="b115-cdea-a975-3f59">
               <characteristics>
-                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                 <characteristic name="T" typeId="d9b2-02e7-3454-c645">6</characteristic>
                 <characteristic name="W" typeId="26ad-6be9-20fc-87e8">2</characteristic>
                 <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
@@ -1375,7 +1379,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
               <profiles>
                 <profile name="Einhyr Hearthguard" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="6d55-c9c5-a65e-62ed">
                   <characteristics>
-                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                     <characteristic name="T" typeId="d9b2-02e7-3454-c645">6</characteristic>
                     <characteristic name="W" typeId="26ad-6be9-20fc-87e8">2</characteristic>
                     <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
@@ -1548,6 +1552,7 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
         </infoLink>
         <infoLink name="Void Armour" id="7da0-5bc3-17ad-d38a" hidden="false" type="profile" targetId="99f3-23f6-d2a3-3d65"/>
         <infoLink name="Eye of the Ancestors" id="602f-bd03-3cea-d5c8" hidden="false" type="rule" targetId="351a-a702-9080-7f08"/>
+        <infoLink name="Steady Advance" id="3630-1a76-db64-04ac" hidden="false" type="profile" targetId="d785-90b7-a968-d81a"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="22bb-ea60-fdcb-8dc7" id="3710-989a-3e32-38f6" primary="true" name="Elite"/>
@@ -1568,10 +1573,10 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
               <profiles>
                 <profile name="Beserk" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="1dc3-b95b-b242-c42e">
                   <characteristics>
-                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                     <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
                     <characteristic name="W" typeId="26ad-6be9-20fc-87e8">2</characteristic>
-                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
                     <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">7</characteristic>
                     <characteristic name="Save" typeId="5290-26c2-5952-820e">6+</characteristic>
                     <characteristic name="OC" typeId="8625-5b90-edf7-3223">1</characteristic>
@@ -1665,10 +1670,10 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
               <profiles>
                 <profile name="Beserk w/ twin concussion gauntlets" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="a27e-8633-73ce-d32e">
                   <characteristics>
-                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                     <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
                     <characteristic name="W" typeId="26ad-6be9-20fc-87e8">2</characteristic>
-                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
                     <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">7</characteristic>
                     <characteristic name="Save" typeId="5290-26c2-5952-820e">6+</characteristic>
                     <characteristic name="OC" typeId="8625-5b90-edf7-3223">1</characteristic>
@@ -1692,10 +1697,10 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
               <profiles>
                 <profile name="Beserk w/ mole grenade launcher" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="9718-11a6-63eb-96e6">
                   <characteristics>
-                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                     <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
                     <characteristic name="W" typeId="26ad-6be9-20fc-87e8">3</characteristic>
-                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
                     <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">7</characteristic>
                     <characteristic name="Save" typeId="5290-26c2-5952-820e">6+</characteristic>
                     <characteristic name="OC" typeId="8625-5b90-edf7-3223">1</characteristic>
@@ -1810,7 +1815,7 @@ Designer’s Note: While a unit is shaken, place a Mole Grenade token next to th
       <profiles>
         <profile name="Brôkhyr Thunderkyn" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="2c5b-6e8a-304c-6c85">
           <characteristics>
-            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
             <characteristic name="T" typeId="d9b2-02e7-3454-c645">6</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">3</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
@@ -1830,6 +1835,7 @@ Designer’s Note: While a unit is shaken, place a Mole Grenade token next to th
       <infoLinks>
         <infoLink name="Void Armour" id="8b8e-5bf1-9e0d-3bd5" hidden="false" type="profile" targetId="99f3-23f6-d2a3-3d65"/>
         <infoLink name="Eye of the Ancestors" id="db57-4e2f-1c7a-ce2d" hidden="false" type="rule" targetId="351a-a702-9080-7f08"/>
+        <infoLink name="Steady Advance" id="b222-1799-98e7-7d38" hidden="false" type="profile" targetId="d785-90b7-a968-d81a"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="e86d-ee7c-7733-972e" id="a50f-c723-4e90-237b" primary="true" name="Heavy Support"/>
@@ -2001,7 +2007,7 @@ Designer’s Note: While a unit is shaken, place a Mole Grenade token next to th
         </profile>
         <profile name="Hekaton Land Fortress (1-4 wounds)" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="3d20-658f-d5de-a094">
           <characteristics>
-            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
             <characteristic name="T" typeId="d9b2-02e7-3454-c645">12</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">16</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
@@ -2556,6 +2562,7 @@ Designer’s Note: While a unit is shaken, place a Mole Grenade token next to th
         <infoLink name="Eye of the Ancestors" id="1bd1-ef88-51ab-dd6e" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink name="Leader" id="0e55-0790-09f9-cab6" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Eye of the Ancestors" id="7650-5af6-f964-691f" hidden="false" type="rule" targetId="351a-a702-9080-7f08"/>
+        <infoLink name="Steady Advance" id="d532-233b-58a8-70b6" hidden="false" type="profile" targetId="d785-90b7-a968-d81a"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="f54b-8629-a73e-39ea" id="1b0c-93e3-c2e0-99ad" primary="false" name="Psyker"/>
@@ -2571,7 +2578,7 @@ Designer’s Note: While a unit is shaken, place a Mole Grenade token next to th
           <profiles>
             <profile name="Grimnyr" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="ef46-8dd2-8877-2b9a">
               <characteristics>
-                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                 <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
                 <characteristic name="W" typeId="26ad-6be9-20fc-87e8">4</characteristic>
                 <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
@@ -2657,7 +2664,7 @@ Designer’s Note: While a unit is shaken, place a Mole Grenade token next to th
           <profiles>
             <profile name="CORV" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="42ca-a380-cd4f-b99b">
               <characteristics>
-                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
                 <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
                 <characteristic name="W" typeId="26ad-6be9-20fc-87e8">1</characteristic>
                 <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
@@ -2727,7 +2734,7 @@ Designer’s Note: While a unit is shaken, place a Mole Grenade token next to th
         </profile>
         <profile name="Hearthkyn Yaegirs" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="8118-d408-86cd-5e77">
           <characteristics>
-            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">5&quot;</characteristic>
             <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">1</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
@@ -2743,6 +2750,7 @@ Designer’s Note: While a unit is shaken, place a Mole Grenade token next to th
         <infoLink name="Void Armour" id="3f3c-b7eb-77ab-c5bf" hidden="false" type="profile" targetId="99f3-23f6-d2a3-3d65"/>
         <infoLink name="Infiltrators" id="a129-755c-f98b-c28f" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
         <infoLink name="Eye of the Ancestors" id="b94f-800c-5ef4-5e9b" hidden="false" type="rule" targetId="351a-a702-9080-7f08"/>
+        <infoLink name="Steady Advance" id="4975-3f0b-baf5-e4e5" hidden="false" type="profile" targetId="d785-90b7-a968-d81a"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="c5c2-9061-ad1a-7865" targetId="21e3-83ef-ec63-48cc" primary="false"/>
@@ -3295,6 +3303,12 @@ Designer’s Note: While a unit is shaken, place a Mole Grenade token next to th
     <profile name="Void Armour" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="99f3-23f6-d2a3-3d65">
       <characteristics>
         <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time a ranged attack targets this model, unless the attacking model is within 18&quot;, reduce the Armour Penetration of that attack by 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Steady Advance" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="d785-90b7-a968-d81a">
+      <characteristics>
+        <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">-   This unit can ignore any or all modifiers to its Move characteristic and any or all modifiers to its Advance or charge rolls.
+-   Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 3&quot; to the Move characteristic of each model in this unit.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
