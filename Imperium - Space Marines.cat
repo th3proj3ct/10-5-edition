@@ -18,7 +18,6 @@
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Invulnerable Save" id="951b-e78a-f956-b70" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
         <infoLink name="Leader" id="2814-e93f-5a97-a2c6" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
       </infoLinks>
       <profiles>
@@ -36,6 +35,12 @@
             <characteristic name="WS" typeId="e669-c236-c599-6366">6</characteristic>
             <characteristic name="BS" typeId="8704-5772-2d99-d251">5</characteristic>
           </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="fd70-99b9-0e6c-8585">
+          <characteristics>
+            <characteristic name="Description" typeId="5eab-8f16-c49a-b79a"/>
+          </characteristics>
+          <comment>4+</comment>
         </profile>
       </profiles>
       <constraints>

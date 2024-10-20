@@ -9,7 +9,7 @@
     <categoryEntry name="Beast" id="af3d-3e07-b06d-e910" hidden="false"/>
     <categoryEntry name="Swarm" id="9b08-f399-c1c2-ea69" hidden="false"/>
     <categoryEntry name="Cavalry" id="248a-bed0-aaa1-8e4e" hidden="false"/>
-    <categoryEntry name="Monstery" id="8e14-ff14-a73f-bba8" hidden="false"/>
+    <categoryEntry name="Monster" id="8e14-ff14-a73f-bba8" hidden="false"/>
     <categoryEntry name="Titanic" id="e5dd-2b10-e9c1-50bf" hidden="false"/>
     <categoryEntry name="Towering" id="98b0-99eb-413a-621f" hidden="false"/>
     <categoryEntry name="Fortification" id="1c72-e87a-9cc7-04df" hidden="false"/>
@@ -23,13 +23,18 @@
     <categoryEntry name="Psyker" id="f54b-8629-a73e-39ea" hidden="false"/>
     <categoryEntry name="Configuration" id="fcaa-796d-11aa-77ce" hidden="false"/>
     <categoryEntry name="Warlord" id="1c0f-0904-ecc1-b20b" hidden="false"/>
+    <categoryEntry name="Hover" id="4def-45b4-32c7-4f39" hidden="false"/>
+    <categoryEntry name="Dedicated Transport" id="2718-37a1-72a1-bc61" hidden="false"/>
+    <categoryEntry name="Transport" id="cee6-ec45-667b-2f87" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Army Roster" id="9281-198c-5a2d-d528" hidden="false">
       <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="8529-0a58-4073-d203" targetId="fcaa-796d-11aa-77ce"/>
         <categoryLink name="Character" hidden="false" id="df5b-f641-ed7b-d0b1" targetId="b30a-aa57-2633-ffe6">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="1b2e-3215-424f-609e" includeChildSelections="true"/>
+            <constraint type="max" value="750" field="13f5-9579-e00f-a1b6" scope="parent" shared="true" id="23f4-89f9-f287-3a45"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Troops" hidden="false" id="5bc0-ade9-a508-01bc" targetId="f3a0-d5e1-9a3d-4bf3">
@@ -37,6 +42,7 @@
             <constraint type="min" value="500" field="13f5-9579-e00f-a1b6" scope="parent" shared="true" id="a82e-99f2-c11b-0baa"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="Dedicated Transport" hidden="false" id="bcc9-23d3-d3b3-3c56" targetId="2718-37a1-72a1-bc61"/>
         <categoryLink name="Elite" hidden="false" id="8f3f-e3f9-3c74-1aec" targetId="22bb-ea60-fdcb-8dc7">
           <constraints>
             <constraint type="max" value="1000" field="13f5-9579-e00f-a1b6" scope="parent" shared="true" id="e94d-dca2-2ff6-c942"/>
@@ -44,12 +50,12 @@
         </categoryLink>
         <categoryLink name="Heavy Support" hidden="false" id="2f9c-57a0-da67-f30c" targetId="e86d-ee7c-7733-972e">
           <constraints>
-            <constraint type="max" value="500" field="13f5-9579-e00f-a1b6" scope="parent" shared="true" id="3a81-be1f-da9c-7e8d"/>
+            <constraint type="max" value="600" field="13f5-9579-e00f-a1b6" scope="parent" shared="true" id="3a81-be1f-da9c-7e8d"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Fast Attack" hidden="false" id="70c7-b88d-2db1-168c" targetId="fc66-abaf-13c7-66b6">
           <constraints>
-            <constraint type="max" value="500" field="13f5-9579-e00f-a1b6" scope="parent" shared="true" id="71f8-5937-7d64-4ffd"/>
+            <constraint type="max" value="600" field="13f5-9579-e00f-a1b6" scope="parent" shared="true" id="71f8-5937-7d64-4ffd"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Lord of War" hidden="false" id="541a-49c7-a753-50e8" targetId="cc59-58c9-ea46-1d81">
@@ -63,9 +69,7 @@
   <profileTypes>
     <profileType name="Unit" id="b748-c343-d3ed-9395" hidden="false" sortIndex="1">
       <characteristicTypes>
-        <characteristicType name="Unit Type" id="f6e9-8f3f-9571-3e91"/>
         <characteristicType name="Move" id="9d17-06ec-83cb-b046"/>
-        <characteristicType name="S" id="825e-8d9a-dee0-4dd7"/>
         <characteristicType name="T" id="d9b2-02e7-3454-c645"/>
         <characteristicType name="W" id="26ad-6be9-20fc-87e8"/>
         <characteristicType name="I" id="816c-4b95-26f0-6cf9"/>
@@ -268,16 +272,23 @@ If a model is equipped with one or more Pistols, unless it is a MONSTER or VEHIC
       <description>In a turn in which a model with this special rule Charges into combat, it adds a bonus to its Initiative Characteristic until the end of the Assault phase. The bonus added to the model’s Initiative is equal to the value in brackets after the special rule; for example, a model with Sudden Strike (2) adds a bonus of +2 to its Initiative.
 A model that has made a Disordered Charge that turn receives no benefit from Sudden Strike (X).</description>
     </rule>
+    <rule name="Grenade" id="571b-148c-c019-de84" hidden="false">
+      <description>When a unit shoots, one model that is equipped with a Grenade in that unit can resolve attacks with it instead of shooting any other weapons.</description>
+    </rule>
+    <rule name="Vulnerable Flank" id="00ae-5be8-e442-13bd" hidden="false">
+      <description>Whenever an attack is allocated to this model, if the model attacking is not fully in front of a unit with this ability, add 1 to the Armour Penetration and Wound roll of that attack.</description>
+    </rule>
+    <rule name="Detonation" id="a5d1-7795-6934-b16d" hidden="false">
+      <description>A weapon with this special rule may only be used to attack Vehicle or Monster models. A model that is chosen to attack with a weapon with this special rule may not fight with another melee weapon in the same phase.</description>
+    </rule>
+    <rule name="Hull " id="393a-2692-1504-41f3" hidden="false">
+      <description>Hull (Arc) – Hull (Arc) weapons will always specify a single Firing Arc and may only fire at targets in that Firing Arc. The different Hull arcs are: Front and Rear</description>
+    </rule>
+    <rule name="Sponson" id="7279-9370-b968-a2c0" hidden="false">
+      <description>Sponson Mounted weapons are usually mounted in pairs, one on each side of a Vehicle (the Vehicle’s profile will note if this is not the case) and fire into the appropriate Sponson Firing Arc (either left or right).</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="2409-fb68-6c21-1f7b"/>
   </sharedSelectionEntries>
-  <sharedProfiles>
-    <profile name="Invulnerable Save" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="db19-dee7-9530-ef0e">
-      <characteristics>
-        <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">5+</characteristic>
-      </characteristics>
-      <comment>4+</comment>
-    </profile>
-  </sharedProfiles>
 </gameSystem>
