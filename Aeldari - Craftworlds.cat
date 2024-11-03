@@ -62,7 +62,7 @@
             <characteristic name="S" typeId="1461-30f6-c26e-c6bc">4</characteristic>
             <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-1</characteristic>
             <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
-            <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Assault, Sustained Hits 1, Rapid Fire 1</characteristic>
+            <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Assault, Sustained Hits 1, Rapid Fire 1, Shuriken</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -70,6 +70,7 @@
         <infoLink name="Assault" id="bb5f-62d4-b9a9-7c0f" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
         <infoLink name="Rapid Fire" id="3ab4-06f1-764f-8ec6" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
         <infoLink name="Sustained Hits" id="c8d7-7f6f-342b-c2e8" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+        <infoLink name="Shuriken" id="1173-461f-db29-e4f1" hidden="false" targetId="be51-9340-717c-0e0f" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="c68f-9a3b-f032-21c5" value="0"/>
@@ -778,14 +779,24 @@ Once per phase, before making a dice roll for a model or unit from your army wi
                         <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="5"/>
                         <cost name="pts" typeId="c68f-9a3b-f032-21c5" value="5"/>
                       </costs>
-                      <entryLinks>
-                        <entryLink import="true" name="Avenger Shuriken Catapult" hidden="false" id="98ac-b722-f597-5624" collective="false" targetId="0013-aa89-3753-3b3a" type="selectionEntry">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="69cd-da49-9bb8-7d92"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00bf-aa6d-65c9-a710"/>
-                          </constraints>
-                        </entryLink>
-                      </entryLinks>
+                      <profiles>
+                        <profile name="Two Avenger Shuriken Catapults" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="e669-6247-ab87-8bda">
+                          <characteristics>
+                            <characteristic name="Range" typeId="8803-da3d-b921-66fb">18&quot;</characteristic>
+                            <characteristic name="A" typeId="6134-ff68-9149-8f90">6</characteristic>
+                            <characteristic name="S" typeId="1461-30f6-c26e-c6bc">4</characteristic>
+                            <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-1</characteristic>
+                            <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
+                            <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Assault, Sustained Hits 1, Rapid Fire 1, Shuriken</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Assault" id="18fd-9fb4-a3a4-4c3d" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
+                        <infoLink name="Rapid Fire" id="e5a2-2dac-5dd2-fe33" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                        <infoLink name="Shuriken" id="786d-0573-ccde-adb8" hidden="false" targetId="be51-9340-717c-0e0f" type="rule"/>
+                        <infoLink name="Sustained Hits" id="760c-a9b3-7ead-2d00" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+                      </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Glaive and Shuriken Pistol" hidden="false" id="cf70-59dc-b703-bc85" collective="false">
                       <profiles>
@@ -1118,7 +1129,7 @@ Once per phase, before making a dice roll for a model or unit from your army wi
         <entryLink import="true" name="Warlock" hidden="false" id="dc15-1795-0528-5a48" collective="false" targetId="6ca0-422d-90f8-c5dd" type="selectionEntry">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="f14a-b3d7-d287-48b2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d959-d6d6-2c6a-34c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="d959-d6d6-2c6a-34c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="30"/>
@@ -2449,7 +2460,7 @@ Once per phase, before making a dice roll for a model or unit from your army wi
         <profile name="Falcon (7-12 wounds)" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="bf95-5022-0726-0097">
           <characteristics>
             <characteristic name="Move" typeId="9d17-06ec-83cb-b046">16&quot;</characteristic>
-            <characteristic name="T" typeId="d9b2-02e7-3454-c645">7</characteristic>
+            <characteristic name="T" typeId="d9b2-02e7-3454-c645">9</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">12</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
             <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">8</characteristic>
@@ -2462,7 +2473,7 @@ Once per phase, before making a dice roll for a model or unit from your army wi
         <profile name="Falcon (4-7 wounds)" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="fe8e-8876-9aa8-d113">
           <characteristics>
             <characteristic name="Move" typeId="9d17-06ec-83cb-b046">14&quot;</characteristic>
-            <characteristic name="T" typeId="d9b2-02e7-3454-c645">7</characteristic>
+            <characteristic name="T" typeId="d9b2-02e7-3454-c645">9</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">12</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
             <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">8</characteristic>
@@ -2475,7 +2486,7 @@ Once per phase, before making a dice roll for a model or unit from your army wi
         <profile name="Falcon (1-3 wounds)" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="2e9b-6478-40ca-db0b">
           <characteristics>
             <characteristic name="Move" typeId="9d17-06ec-83cb-b046">12&quot;</characteristic>
-            <characteristic name="T" typeId="d9b2-02e7-3454-c645">7</characteristic>
+            <characteristic name="T" typeId="d9b2-02e7-3454-c645">9</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">12</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
             <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">8</characteristic>

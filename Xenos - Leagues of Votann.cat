@@ -983,12 +983,12 @@ At the start of the Declare Battle Formations step, you can select one Hearthkyn
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Brôkhyr Forge-master" hidden="false" id="7c3d-296c-99f6-c457">
           <costs>
-            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="30"/>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="25"/>
           </costs>
           <profiles>
             <profile name="Master Armourer" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="caec-8dd3-cfaa-149f">
               <characteristics>
-                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time this model repairs a model using its Brôkhyr’s Guild ability, the model being repaired regains up to 3 lost wounds instead of D3.</characteristic>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Once per battle round, the first time a saving throw is failed for a friendly VEHICLE or EXO-FRAME model that is within 6&quot; of this model, the Damage characteristic of that attack is changed to 0.</characteristic>
               </characteristics>
             </profile>
           </profiles>
