@@ -209,6 +209,50 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ee3-5eb4-96ce-2556" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Greater Reward of Chaos" id="2006-e79c-fa0e-d35d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Relentless Carnage" hidden="false" id="dd30-2162-2435-df4a">
+              <profiles>
+                <profile name="Relentless Carnage" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="a73c-a893-183e-85c4">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Daemon Lord of Khorne" hidden="false" id="2867-8d46-1782-cdbe">
+              <profiles>
+                <profile name="Daemon Lord of Khorne" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="9d79-8d03-31a5-68c5">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">While a friendly KHORNE LEGIONES DAEMONICA unit is within 6&quot; of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rage Embodied (Aura)" hidden="false" id="e24a-ee86-e63e-8368">
+              <profiles>
+                <profile name="Rage Embodied (Aura)" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="3e2a-4724-3820-21dc">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">While a friendly KHORNE LEGIONES DAEMONICA unit (excluding MONSTERS and VEHICLES) is within 6&quot; of this model, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Murderlust (Aura)" hidden="false" id="945b-1020-c800-d9f7">
+              <profiles>
+                <profile name="Murderlust (Aura)" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="7b88-7573-734b-8667">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">While a unit is within 6&quot; of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a3cc-4315-9771-c98e" includeChildSelections="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8f31-de9c-7e8a-7fc4" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <categoryLinks>
         <categoryLink targetId="7f10-51fb-3ddc-2be1" id="200d-2bbe-3ffc-0069" primary="false" name="Fly "/>
@@ -216,7 +260,7 @@
         <categoryLink targetId="8e14-ff14-a73f-bba8" id="b04d-794a-7788-fc7d" primary="false" name="Monster"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="300"/>
+        <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="295"/>
       </costs>
       <infoLinks>
         <infoLink name="Deep Strike" id="c386-642d-135a-44c0" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
@@ -1314,6 +1358,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="170"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntryGroups>
