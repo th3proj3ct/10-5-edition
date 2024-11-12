@@ -219,6 +219,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e65a-6308-a1bb-4725" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Daemon Lord of Khorne" hidden="false" id="2867-8d46-1782-cdbe">
               <profiles>
@@ -228,6 +231,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2f8-27ec-65e0-b0ca" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rage Embodied (Aura)" hidden="false" id="e24a-ee86-e63e-8368">
               <profiles>
@@ -237,6 +243,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c23e-fd27-3887-82ec" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Murderlust (Aura)" hidden="false" id="945b-1020-c800-d9f7">
               <profiles>
@@ -246,6 +255,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="32ff-f4e8-7e0e-4665" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1128,7 +1140,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Daemon Prince" hidden="false" id="7002-d96c-c9e7-f33c">
       <categoryLinks>
-        <categoryLink targetId="b30a-aa57-2633-ffe6" id="2cf8-5cbf-ec8c-03ef" primary="false" name="Character"/>
+        <categoryLink targetId="b30a-aa57-2633-ffe6" id="2cf8-5cbf-ec8c-03ef" primary="true" name="Character"/>
         <categoryLink targetId="8e14-ff14-a73f-bba8" id="9746-be7e-3db1-d67d" primary="false" name="Monster"/>
       </categoryLinks>
       <profiles>
