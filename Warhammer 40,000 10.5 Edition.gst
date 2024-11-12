@@ -34,7 +34,7 @@
         <categoryLink name="Character" hidden="false" id="df5b-f641-ed7b-d0b1" targetId="b30a-aa57-2633-ffe6">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="1b2e-3215-424f-609e" includeChildSelections="true"/>
-            <constraint type="max" value="750" field="13f5-9579-e00f-a1b6" scope="parent" shared="true" id="23f4-89f9-f287-3a45"/>
+            <constraint type="max" value="1000" field="13f5-9579-e00f-a1b6" scope="parent" shared="true" id="23f4-89f9-f287-3a45"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Troops" hidden="false" id="5bc0-ade9-a508-01bc" targetId="f3a0-d5e1-9a3d-4bf3">
@@ -282,10 +282,13 @@ A model that has made a Disordered Charge that turn receives no benefit from Sud
       <description>A weapon with this special rule may only be used to attack Vehicle or Monster models. A model that is chosen to attack with a weapon with this special rule may not fight with another melee weapon in the same phase.</description>
     </rule>
     <rule name="Hull " id="393a-2692-1504-41f3" hidden="false">
-      <description>Hull (Arc) – Hull (Arc) weapons will always specify a single Firing Arc and may only fire at targets in that Firing Arc. The different Hull arcs are: Front and Rear</description>
+      <description>Hull (Arc) – Hull (Arc) weapons will always specify a single Firing Arc and may only fire at targets in that Firing Arc. The different Hull arcs are: Front, Centerline, and Rear</description>
     </rule>
     <rule name="Sponson" id="7279-9370-b968-a2c0" hidden="false">
       <description>Sponson Mounted weapons are usually mounted in pairs, one on each side of a Vehicle (the Vehicle’s profile will note if this is not the case) and fire into the appropriate Sponson Firing Arc (either left or right).</description>
+    </rule>
+    <rule name="Armour Bane (X)" id="23fc-5d49-9302-b476" hidden="false">
+      <description>If a model with this weapon wounds a VEHICLE or MONSTER unit, improve the damage characteristic by the value in brackets after the special rule</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>

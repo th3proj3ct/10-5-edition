@@ -4422,7 +4422,7 @@ Once per phase, before making a dice roll for a model or unit from your army wi
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="20"/>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eabd-5068-df45-34b7" includeChildSelections="false"/>
@@ -4729,7 +4729,7 @@ At the start of the battle, when making your first Strands of Fate roll, roll an
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="20"/>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="253f-b3ef-9351-cbbb" includeChildSelections="false"/>

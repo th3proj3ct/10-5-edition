@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="f0b3-b42a-ee8c-3a27" name="Chaos - Chaos Daemons" gameSystemId="sys-bef2-dc6e-165c-50d4" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Bloodthirster" hidden="false" id="2e33-406a-a04b-7d75">
+      <profiles>
+        <profile name="Bloodthirster (5-9 Wounds)" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="26bd-dc91-728d-2461">
+          <characteristics>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">8&quot;</characteristic>
+            <characteristic name="T" typeId="d9b2-02e7-3454-c645">11</characteristic>
+            <characteristic name="W" typeId="26ad-6be9-20fc-87e8">18</characteristic>
+            <characteristic name="I" typeId="816c-4b95-26f0-6cf9">6</characteristic>
+            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">6+</characteristic>
+            <characteristic name="Save" typeId="5290-26c2-5952-820e">4+/4+</characteristic>
+            <characteristic name="OC" typeId="8625-5b90-edf7-3223">5</characteristic>
+            <characteristic name="WS" typeId="e669-c236-c599-6366">7</characteristic>
+            <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="10&quot;" field="9d17-06ec-83cb-b046">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5d2a-c5d3-5e2c-7e6b" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Bloodthirster (1-4 Wounds)" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="9ead-a12a-a9c0-e59f">
+          <characteristics>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+            <characteristic name="T" typeId="d9b2-02e7-3454-c645">11</characteristic>
+            <characteristic name="W" typeId="26ad-6be9-20fc-87e8">18</characteristic>
+            <characteristic name="I" typeId="816c-4b95-26f0-6cf9">6</characteristic>
+            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">6+</characteristic>
+            <characteristic name="Save" typeId="5290-26c2-5952-820e">4+/4+</characteristic>
+            <characteristic name="OC" typeId="8625-5b90-edf7-3223">5</characteristic>
+            <characteristic name="WS" typeId="e669-c236-c599-6366">6</characteristic>
+            <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="8&quot;" field="9d17-06ec-83cb-b046">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5d2a-c5d3-5e2c-7e6b" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Bloodthirster (10-18 Wounds)" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="ac0f-d8a7-28f8-4d02">
+          <characteristics>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">10&quot;</characteristic>
+            <characteristic name="T" typeId="d9b2-02e7-3454-c645">11</characteristic>
+            <characteristic name="W" typeId="26ad-6be9-20fc-87e8">18</characteristic>
+            <characteristic name="I" typeId="816c-4b95-26f0-6cf9">6</characteristic>
+            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">6+</characteristic>
+            <characteristic name="Save" typeId="5290-26c2-5952-820e">4+/4+</characteristic>
+            <characteristic name="OC" typeId="8625-5b90-edf7-3223">5</characteristic>
+            <characteristic name="WS" typeId="e669-c236-c599-6366">8</characteristic>
+            <characteristic name="BS" typeId="8704-5772-2d99-d251">5</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="12&quot;" field="9d17-06ec-83cb-b046">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5d2a-c5d3-5e2c-7e6b" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Greater Daemon of Khorne (Aura)" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="c2b4-1143-2080-d7cb">
+          <characteristics>
+            <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">While a friendly KHORNE LEGIONES DAEMONICA unit is within 6&quot; of this model, that unit is within your army’s Shadow of Chaos.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hellfire Breath" hidden="false" id="f8ba-bcdb-3583-d33f">
+          <profiles>
+            <profile name="Hellfire Breath" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="96bb-dfbc-9acc-8ee5">
+              <characteristics>
+                <characteristic name="Range" typeId="8803-da3d-b921-66fb">12&quot;</characteristic>
+                <characteristic name="A" typeId="6134-ff68-9149-8f90">D3+1</characteristic>
+                <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
+                <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-1</characteristic>
+                <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
+                <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Ignores Cover, Torrent</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e847-9181-5d93-0474" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1865-3181-504b-b3ac" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="b30a-aa57-2633-ffe6" id="02b6-c5c2-0fa0-cd44" primary="true" name="Character"/>
+            <categoryLink targetId="8e14-ff14-a73f-bba8" id="85f2-6ed5-3840-4397" primary="false" name="Monster"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Daemonic Wings" hidden="false" id="5d2a-c5d3-5e2c-7e6b">
+          <profiles>
+            <profile name="Daemonic Wings" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="bba5-ae67-22c9-2341">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This unit has a Move characteristic of 12&quot; and the Fly keyword.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="15"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13df-a6ad-2e47-126c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="fb0e-90af-7f2c-bc3c" hidden="false" defaultSelectionEntryId="c70f-886c-7425-149f">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Great axe of Khorne" hidden="false" id="c70f-886c-7425-149f">
+              <profiles>
+                <profile name="Great axe of Khorne - Strike" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="2f65-9411-2c87-45ea">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                    <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">7</characteristic>
+                    <characteristic name="S" typeId="df8e-f430-9fe1-4a41">16</characteristic>
+                    <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-4</characteristic>
+                    <characteristic name="D" typeId="7578-e96b-1d31-e424">D6+2</characteristic>
+                    <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                  </characteristics>
+                </profile>
+                <profile name="Great axe of Khorne - Sweep" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="5956-11ef-efe0-0263">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                    <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">14</characteristic>
+                    <characteristic name="S" typeId="df8e-f430-9fe1-4a41">10</characteristic>
+                    <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                    <characteristic name="D" typeId="7578-e96b-1d31-e424">2</characteristic>
+                    <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Axe of Khorne and lash of Khorne" hidden="false" id="e82d-2a12-3d37-ec74">
+              <profiles>
+                <profile name="Axe of Khorne - Strike" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="aa3d-6ac0-b8ae-d244">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                    <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">8</characteristic>
+                    <characteristic name="S" typeId="df8e-f430-9fe1-4a41">14</characteristic>
+                    <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-4</characteristic>
+                    <characteristic name="D" typeId="7578-e96b-1d31-e424">2D3</characteristic>
+                    <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                  </characteristics>
+                </profile>
+                <profile name="Axe of Khorne - Sweep" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="cb2e-891f-285f-098a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                    <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">16</characteristic>
+                    <characteristic name="S" typeId="df8e-f430-9fe1-4a41">8</characteristic>
+                    <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                    <characteristic name="D" typeId="7578-e96b-1d31-e424">1</characteristic>
+                    <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                  </characteristics>
+                </profile>
+                <profile name="Lash of Khorne" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="7476-09e9-81b7-1c11">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8803-da3d-b921-66fb">12&quot;</characteristic>
+                    <characteristic name="A" typeId="6134-ff68-9149-8f90">6</characteristic>
+                    <characteristic name="S" typeId="1461-30f6-c26e-c6bc">8</characteristic>
+                    <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">0</characteristic>
+                    <characteristic name="D" typeId="611d-f568-3148-2eaa">2</characteristic>
+                    <characteristic name="Keywords" typeId="7213-07c4-589f-59c7"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Axe of Khorne and bloodflail" hidden="false" id="8571-8193-5a6f-cb34">
+              <profiles>
+                <profile name="Axe of Khorne - Strike" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="5aa6-0585-cffb-b597">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                    <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">8</characteristic>
+                    <characteristic name="S" typeId="df8e-f430-9fe1-4a41">14</characteristic>
+                    <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-4</characteristic>
+                    <characteristic name="D" typeId="7578-e96b-1d31-e424">2D3</characteristic>
+                    <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                  </characteristics>
+                </profile>
+                <profile name="Axe of Khorne - Sweep" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="9ea3-4f3f-013d-99e1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                    <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">16</characteristic>
+                    <characteristic name="S" typeId="df8e-f430-9fe1-4a41">8</characteristic>
+                    <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                    <characteristic name="D" typeId="7578-e96b-1d31-e424">1</characteristic>
+                    <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                  </characteristics>
+                </profile>
+                <profile name="Bloodflail" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="3d3d-7b13-54e2-88c6">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8803-da3d-b921-66fb">12&quot;</characteristic>
+                    <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
+                    <characteristic name="S" typeId="1461-30f6-c26e-c6bc">16</characteristic>
+                    <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-3</characteristic>
+                    <characteristic name="D" typeId="611d-f568-3148-2eaa">D6+1</characteristic>
+                    <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Devastating Wounds</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d5d7-e81f-b01e-da77" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ee3-5eb4-96ce-2556" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="7f10-51fb-3ddc-2be1" id="200d-2bbe-3ffc-0069" primary="false" name="Fly "/>
+        <categoryLink targetId="b30a-aa57-2633-ffe6" id="0004-9959-9a3a-4e8a" primary="true" name="Character"/>
+        <categoryLink targetId="8e14-ff14-a73f-bba8" id="b04d-794a-7788-fc7d" primary="false" name="Monster"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="300"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="c386-642d-135a-44c0" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="Deadly Demise" id="0648-0968-47c6-6684" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value=" D6" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Exalted Bloodthirster " hidden="false" id="cea8-8a2b-31df-a682" type="selectionEntryGroup" targetId="6810-ade8-3904-dc85"/>
+        <entryLink import="true" name="Gift of Khorne" hidden="false" id="90b6-6a87-0de6-4672" type="selectionEntryGroup" targetId="e988-6b9e-8939-93dd"/>
+        <entryLink import="true" name="Relic Weapon" hidden="false" id="101d-ed0c-f318-732d" type="selectionEntryGroup" targetId="3f22-275f-ed0c-6b2a"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Daemonic Herald of Khorne" hidden="false" id="4d8a-c3b1-223f-b16e">
+      <categoryLinks>
+        <categoryLink targetId="b30a-aa57-2633-ffe6" id="f89f-fbc2-abec-ad00" primary="true" name="Character"/>
+        <categoryLink targetId="21e3-83ef-ec63-48cc" id="6803-df64-762a-d03c" primary="false" name="Infantry"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mount" id="e50e-1e6b-7bde-8835" hidden="false" defaultSelectionEntryId="f13c-d924-e06e-9817">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="On Foot" hidden="false" id="f13c-d924-e06e-9817">
+              <profiles>
+                <profile name="Daemonic Herald of Khorne" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="8ccd-7428-b984-ea79">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">4</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">5</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">6</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">7+</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">5+/4+</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">1</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">7</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">7</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Leader" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="f4ca-dad4-1d6e-907a">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This model can be attached to the following unit:
+-    Bloodletters</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Juggernaut of Khorne" hidden="false" id="ce54-1602-6f2f-aa17">
+              <profiles>
+                <profile name="Herald on Juggernaut" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="df4f-32de-c595-1866">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">7</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">6</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">6</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">7+</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">5+/4+</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">7</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">7</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Leader" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="bd1e-d522-4fd4-f4e4">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This model can be attached to the following unit:
+-    Bloodcrushers</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Juggernaut of Khorne" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="e425-3cac-7e1e-0a8f">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">-</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">-</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">-</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">-</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">-</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">-</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">-</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">4</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="	Juggernaut’s bladed horn " hidden="false" id="5f39-25cd-4671-6020">
+                  <profiles>
+                    <profile name="	Juggernaut’s bladed horn " typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="466c-2447-4739-5634">
+                      <characteristics>
+                        <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                        <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">4</characteristic>
+                        <characteristic name="S" typeId="df8e-f430-9fe1-4a41">6</characteristic>
+                        <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-1</characteristic>
+                        <characteristic name="D" typeId="7578-e96b-1d31-e424">1</characteristic>
+                        <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf">Extra Attacks</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b4a-f180-cad8-5b66" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bad4-ef40-4047-cf59" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="25"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Blood Throne of Khorne" hidden="false" id="4d23-b029-9576-1b76">
+              <profiles>
+                <profile name="Herald on Blood Throne" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="2136-4401-bb1c-03a4">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">8&quot;</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">9</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">9</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">6</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">7+</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">5+/4+</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">3</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">7</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">7</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Attendant" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="387b-5893-5d51-a6e7">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">-</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">-</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">-</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">-</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">-</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">-</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">-</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">5</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">5</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Blood Throne" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="7d7a-3d64-c6d4-7a52">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">At the start of the Fight phase, select one enemy unit within 18&quot; of and visible to this model. Until the end of the phase, each time a friendly KHORNE LEGIONES DAEMONICA unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Attendants&apos; Hellblades" hidden="false" id="9f25-da07-f85a-df35">
+                  <profiles>
+                    <profile name="Attendants&apos; Hellblades" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="e109-039b-3e4a-7b72">
+                      <characteristics>
+                        <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                        <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">4</characteristic>
+                        <characteristic name="S" typeId="df8e-f430-9fe1-4a41">5</characteristic>
+                        <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                        <characteristic name="D" typeId="7578-e96b-1d31-e424">2</characteristic>
+                        <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf">Extra Attacks</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b34-e7a2-5dd1-e959" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aaee-f875-9743-b640" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="75"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c38-c938-9f39-e660" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fc7-1350-35aa-9f11" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Heraldic Blessing" id="e6a1-3a60-100b-c21d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bloodmaster" hidden="false" id="93b9-dd54-ad42-3b6d">
+              <profiles>
+                <profile name="Bloodmaster" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="17bb-6e31-332b-0469">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time a model in this unit makes an attack, add 1 to the Wound roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0180-605c-52a2-5f53" includeChildSelections="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="25"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skulls for Khorne" hidden="false" id="ad74-31b5-fcdf-e6a8">
+              <profiles>
+                <profile name="Skulls for Khorne" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="94f2-71ff-147b-c691">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8ff6-07d6-f72b-2d0c" includeChildSelections="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lord of Decapitations" hidden="false" id="8082-f486-f759-3c24">
+              <profiles>
+                <profile name="Lord of Decapitations" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="6fa1-53d5-7136-79c3">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8f12-cb91-4551-aef4" includeChildSelections="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="30"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="60"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Blade of Blood" hidden="false" id="cf73-a2e7-9a9b-6159">
+          <profiles>
+            <profile name="Blade of Blood" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="d2af-4abd-4e1e-ec8d">
+              <characteristics>
+                <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">5</characteristic>
+                <characteristic name="S" typeId="df8e-f430-9fe1-4a41">6</characteristic>
+                <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                <characteristic name="D" typeId="7578-e96b-1d31-e424">3</characteristic>
+                <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="02ff-7cec-ab0f-437d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0493-9dd1-dd31-c56d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Gift of Khorne" hidden="false" id="50d8-cf07-10ef-aef8" type="selectionEntryGroup" targetId="e988-6b9e-8939-93dd"/>
+        <entryLink import="true" name="Relic Weapon" hidden="false" id="d48f-f6b9-1203-1e78" type="selectionEntryGroup" targetId="3f22-275f-ed0c-6b2a"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="f7c4-7c36-855d-5ba4" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bloodletters" hidden="false" id="65c0-d5e7-70b5-1e96">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bloodletters" id="d4f6-4eb7-d74d-6e88" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bloodletter" hidden="false" id="215a-0090-e9eb-f53e">
+              <profiles>
+                <profile name="Bloodletter" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="9101-9147-426f-c06e">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">7&quot;</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">4</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">1</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">7+</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">5+/4+</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">5</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">5</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="e087-12b7-dfe5-d0d5" includeChildSelections="false"/>
+                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="ce49-4b3c-909e-a4ef" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bloodletter&apos;s Hellblade" hidden="false" id="eede-d3b8-6ae9-d32c" collective="true">
+                  <profiles>
+                    <profile name="Bloodletter&apos;s Hellblade" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="26ed-a873-5743-39ac">
+                      <characteristics>
+                        <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                        <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">2</characteristic>
+                        <characteristic name="S" typeId="df8e-f430-9fe1-4a41">5</characteristic>
+                        <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                        <characteristic name="D" typeId="7578-e96b-1d31-e424">2</characteristic>
+                        <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f91a-0689-1cc6-9db5" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f085-1081-75b5-157b" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="9" field="ce49-4b3c-909e-a4ef"/>
+                    <modifier type="set" value="9" field="e087-12b7-dfe5-d0d5"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="65c0-d5e7-70b5-1e96" childId="36d0-88f5-ebdf-ef64" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Bloodreaper" hidden="false" id="36d0-88f5-ebdf-ef64">
+          <profiles>
+            <profile name="Bloodreaper" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="0650-0616-e346-8394">
+              <characteristics>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">7&quot;</characteristic>
+                <characteristic name="T" typeId="d9b2-02e7-3454-c645">4</characteristic>
+                <characteristic name="W" typeId="26ad-6be9-20fc-87e8">1</characteristic>
+                <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
+                <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">6+</characteristic>
+                <characteristic name="Save" typeId="5290-26c2-5952-820e">5+/4+</characteristic>
+                <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
+                <characteristic name="WS" typeId="e669-c236-c599-6366">5</characteristic>
+                <characteristic name="BS" typeId="8704-5772-2d99-d251">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bed1-4aad-e061-554d" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bloodreaper&apos;s Hellblade" hidden="false" id="fe04-5ee7-906b-3392">
+              <profiles>
+                <profile name="Bloodreaper&apos;s Hellblade" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="cb01-3b87-3669-3a97">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                    <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">3</characteristic>
+                    <characteristic name="S" typeId="df8e-f430-9fe1-4a41">5</characteristic>
+                    <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                    <characteristic name="D" typeId="7578-e96b-1d31-e424">2</characteristic>
+                    <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab5a-8b76-938d-f5ce" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3634-da66-ef0b-404d" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Reward of Chaos" hidden="false" id="cb2f-9906-53a1-606f" type="selectionEntryGroup" targetId="2ff4-aa24-b63e-1328"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Daemonic Icon" hidden="false" id="2b94-42a1-28aa-d47b">
+          <profiles>
+            <profile name="Daemonic Icon" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="7437-a2e0-22fe-19be">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time a model in this unit makes a melee attack, re-roll a Wound roll of 1. If that attack targets a unit that is Below Half-strength, you can re-roll the Wound roll instead.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a04d-2b70-48d8-6e9a" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="3291-c0fe-5592-2840">
+          <profiles>
+            <profile name="Instrument of Chaos" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="807c-625d-a489-d7d3">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Add 1 to Charge rolls made for the bearer’s unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="5"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eaa5-60e4-cd41-3637" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="f3a0-d5e1-9a3d-4bf3" id="f835-fa65-59cf-ee44" primary="true" name="Troops"/>
+        <categoryLink targetId="21e3-83ef-ec63-48cc" id="0653-c49d-57e5-f62f" primary="false" name="Infantry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="66b7-244a-71d4-c744" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bloodcrushers" hidden="false" id="ed3c-2ca8-511b-f77e">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bloodcrushers" id="2a65-e0e8-f276-b309" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bloodcrusher" hidden="false" id="4288-d8a6-7c60-f874">
+              <profiles>
+                <profile name="Bloodcrusher" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="a229-8ab0-fa3d-be2a">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">7</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">4</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">7+</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">4+/4+</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">5</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">5</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Juggernaut" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="a43e-a1e2-a43d-6c3b">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">-</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">-</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">-</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">-</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">-</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">-</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">-</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">4</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="35"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="0989-9889-cf41-ef30" includeChildSelections="false"/>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="0cfa-6f84-a432-5819" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bloodcrusher&apos;s Hellblade" hidden="false" id="9cea-69e8-efe0-7d65" collective="true">
+                  <profiles>
+                    <profile name="Bloodcrusher&apos;s Hellblade" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="87f1-cc45-e2e0-ddbb">
+                      <characteristics>
+                        <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                        <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">2</characteristic>
+                        <characteristic name="S" typeId="df8e-f430-9fe1-4a41">5</characteristic>
+                        <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                        <characteristic name="D" typeId="7578-e96b-1d31-e424">2</characteristic>
+                        <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="40b7-2993-fa86-766a" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43c6-866f-3867-ec64" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Juggernaut&apos;s Bladed Horn" hidden="false" id="4607-e591-2cee-8eb1" collective="true">
+                  <profiles>
+                    <profile name="Juggernaut&apos;s Bladed Horn" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="f6ff-1327-b7a1-6c21">
+                      <characteristics>
+                        <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                        <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">4</characteristic>
+                        <characteristic name="S" typeId="df8e-f430-9fe1-4a41">6</characteristic>
+                        <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-1</characteristic>
+                        <characteristic name="D" typeId="7578-e96b-1d31-e424">1</characteristic>
+                        <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf">Extra Attacks</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Extra Attacks" id="d1bc-5b4c-3bdd-d26d" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b004-286b-bd3d-f7ac" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74ac-fcbb-5401-efb5" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="2" field="0cfa-6f84-a432-5819"/>
+                    <modifier type="set" value="5" field="0989-9889-cf41-ef30"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="ed3c-2ca8-511b-f77e" childId="7a60-9b24-9fd2-22d9" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Bloodhunter" hidden="false" id="7a60-9b24-9fd2-22d9">
+          <profiles>
+            <profile name="Juggernaut" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="d422-3d50-1aa5-c48d">
+              <characteristics>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">-</characteristic>
+                <characteristic name="T" typeId="d9b2-02e7-3454-c645">-</characteristic>
+                <characteristic name="W" typeId="26ad-6be9-20fc-87e8">-</characteristic>
+                <characteristic name="I" typeId="816c-4b95-26f0-6cf9">-</characteristic>
+                <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">-</characteristic>
+                <characteristic name="Save" typeId="5290-26c2-5952-820e">-</characteristic>
+                <characteristic name="OC" typeId="8625-5b90-edf7-3223">-</characteristic>
+                <characteristic name="WS" typeId="e669-c236-c599-6366">4</characteristic>
+                <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Bloodhunter" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="60bf-9ba7-dc81-861a">
+              <characteristics>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">10&quot;</characteristic>
+                <characteristic name="T" typeId="d9b2-02e7-3454-c645">7</characteristic>
+                <characteristic name="W" typeId="26ad-6be9-20fc-87e8">4</characteristic>
+                <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
+                <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">6+</characteristic>
+                <characteristic name="Save" typeId="5290-26c2-5952-820e">4+/4+</characteristic>
+                <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
+                <characteristic name="WS" typeId="e669-c236-c599-6366">5</characteristic>
+                <characteristic name="BS" typeId="8704-5772-2d99-d251">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed84-fbd1-5489-1b69" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bloodhunter&apos;s Hellblade" hidden="false" id="2ef1-b847-6d7d-de1a">
+              <profiles>
+                <profile name="Bloodhunter&apos;s Hellblade" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="0e5b-2c6c-1a90-f06f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                    <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">3</characteristic>
+                    <characteristic name="S" typeId="df8e-f430-9fe1-4a41">5</characteristic>
+                    <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                    <characteristic name="D" typeId="7578-e96b-1d31-e424">2</characteristic>
+                    <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a432-cc87-4dbf-03c4" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46e5-a33b-4a17-a70d" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Juggernaut&apos;s Bladed Horn" hidden="false" id="861b-fe98-02fe-b9d9" collective="true">
+              <profiles>
+                <profile name="Juggernaut&apos;s Bladed Horn" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="4275-fe31-1b31-e08b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                    <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">4</characteristic>
+                    <characteristic name="S" typeId="df8e-f430-9fe1-4a41">6</characteristic>
+                    <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-1</characteristic>
+                    <characteristic name="D" typeId="7578-e96b-1d31-e424">1</characteristic>
+                    <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf">Extra Attacks</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Extra Attacks" id="d92e-6104-0d11-89c2" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a912-142e-c809-f2ef" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6090-ce00-4c45-3b8a" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Reward of Chaos" hidden="false" id="8132-c236-d8a8-8a10" type="selectionEntryGroup" targetId="2ff4-aa24-b63e-1328"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="40"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Daemonic Icon" hidden="false" id="8311-965a-56b1-2cd8">
+          <profiles>
+            <profile name="Daemonic Icon" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="dcba-6bf7-16e7-9033">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time a model in this unit makes a melee attack, re-roll a Wound roll of 1. If that attack targets a unit that is Below Half-strength, you can re-roll the Wound roll instead.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a68-e7f0-b203-055a" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="720f-f1c7-e742-59ac">
+          <profiles>
+            <profile name="Instrument of Chaos" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="405e-cddc-faf4-199a">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Add 1 to Charge rolls made for the bearer’s unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="5"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0422-27d8-aea3-6401" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="22bb-ea60-fdcb-8dc7" id="07c6-c709-5915-eddd" primary="true" name="Elite"/>
+        <categoryLink targetId="248a-bed0-aaa1-8e4e" id="39ac-ed7c-9c8c-a393" primary="false" name="Cavalry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="7d2c-6673-7fc9-1412" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flesh Hounds" hidden="false" id="ef9c-b360-3e3e-fc3a">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Flesh Hounds" id="8c67-7a79-1d18-ec4c" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Flesh Hounds" hidden="false" id="8209-a7be-bfbb-84bc">
+              <profiles>
+                <profile name="Flesh Hound" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="c87f-99da-640d-3eee">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">12&quot;</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">4</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">2</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">8+</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">5+/4+</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">5</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="14"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="1505-2812-cf77-0215" includeChildSelections="false"/>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="5c3c-a53c-72a2-dbe8" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Gore-Drenched Fangs" hidden="false" id="d8d8-3a8d-9930-5330" collective="true">
+                  <profiles>
+                    <profile name="Gore-Drenched Fangs" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="ba29-70f8-6129-011b">
+                      <characteristics>
+                        <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                        <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">3</characteristic>
+                        <characteristic name="S" typeId="df8e-f430-9fe1-4a41">5</characteristic>
+                        <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-1</characteristic>
+                        <characteristic name="D" typeId="7578-e96b-1d31-e424">1</characteristic>
+                        <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc02-ea42-2ab7-dda0" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d55d-b785-2fdf-9f46" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="4" field="5c3c-a53c-72a2-dbe8"/>
+                    <modifier type="set" value="9" field="1505-2812-cf77-0215"/>
+                  </modifiers>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="ef9c-b360-3e3e-fc3a" childId="3410-66a6-6452-9231" shared="true"/>
+                  </conditions>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Gore Hound" hidden="false" id="3410-66a6-6452-9231">
+          <profiles>
+            <profile name="Gore Hound" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="1c61-61ca-e851-8554">
+              <characteristics>
+                <characteristic name="Move" typeId="9d17-06ec-83cb-b046">12&quot;</characteristic>
+                <characteristic name="T" typeId="d9b2-02e7-3454-c645">4</characteristic>
+                <characteristic name="W" typeId="26ad-6be9-20fc-87e8">2</characteristic>
+                <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
+                <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">7+</characteristic>
+                <characteristic name="Save" typeId="5290-26c2-5952-820e">5+/4+</characteristic>
+                <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
+                <characteristic name="WS" typeId="e669-c236-c599-6366">5</characteristic>
+                <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1bb-d564-4b87-ed55" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Burning Roar" hidden="false" id="7f14-e403-702f-bc23">
+              <profiles>
+                <profile name="Burning Roar" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="a2c8-05e7-c249-b028">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8803-da3d-b921-66fb">12&quot;</characteristic>
+                    <characteristic name="A" typeId="6134-ff68-9149-8f90">D3+1</characteristic>
+                    <characteristic name="S" typeId="1461-30f6-c26e-c6bc">4</characteristic>
+                    <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">0</characteristic>
+                    <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
+                    <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Ignores Cover, Torrent</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd0b-5984-30d1-7ddc" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d8e-b425-2172-428a" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Ignores Cover" id="aa5f-7918-cc91-8608" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+                <infoLink name="Torrent" id="749c-bfdd-ba9f-b1e4" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gore-Drenched Fangs" hidden="false" id="4f55-77ff-b0ce-5c45" collective="true">
+              <profiles>
+                <profile name="Gore-Drenched Fangs" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="a496-9eab-afce-4fbb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                    <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">4</characteristic>
+                    <characteristic name="S" typeId="df8e-f430-9fe1-4a41">5</characteristic>
+                    <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-1</characteristic>
+                    <characteristic name="D" typeId="7578-e96b-1d31-e424">1</characteristic>
+                    <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="10d9-3e29-873c-7026" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35ce-7dc4-6cc2-9fea" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Reward of Chaos" hidden="false" id="3d32-7a96-ad60-1caf" type="selectionEntryGroup" targetId="2ff4-aa24-b63e-1328"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="19"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="fc66-abaf-13c7-66b6" id="b3e1-8ae9-341b-402e" primary="true" name="Fast Attack"/>
+        <categoryLink targetId="af3d-3e07-b06d-e910" id="0629-96c3-eee1-438f" primary="false" name="Beast"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="c207-9ba1-09bb-54b6" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Savage Pounce" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="26d9-aa82-92c0-7e23">
+          <characteristics>
+            <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time a model in this unit makes an attack with its gore-drenched fangs, if that model’s unit made a charge move this turn, add 1 to that attack’s Damage characteristic.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Skull Cannon" hidden="false" id="d9d5-f12c-7339-3a7f">
+      <categoryLinks>
+        <categoryLink targetId="e86d-ee7c-7733-972e" id="0c60-1533-908b-e37c" primary="true" name="Heavy Support"/>
+        <categoryLink targetId="36fc-9e7f-8bca-666b" id="96df-95c8-bd72-971a" primary="false" name="Vehicle"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Skull Cannon" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="edba-f723-0d57-74f2">
+          <characteristics>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">8&quot;</characteristic>
+            <characteristic name="T" typeId="d9b2-02e7-3454-c645">9</characteristic>
+            <characteristic name="W" typeId="26ad-6be9-20fc-87e8">9</characteristic>
+            <characteristic name="I" typeId="816c-4b95-26f0-6cf9">3</characteristic>
+            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">6+</characteristic>
+            <characteristic name="Save" typeId="5290-26c2-5952-820e">4+/4+</characteristic>
+            <characteristic name="OC" typeId="8625-5b90-edf7-3223">3</characteristic>
+            <characteristic name="WS" typeId="e669-c236-c599-6366">4</characteristic>
+            <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Attendant" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="4151-d337-b5c9-2df5">
+          <characteristics>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">-</characteristic>
+            <characteristic name="T" typeId="d9b2-02e7-3454-c645">-</characteristic>
+            <characteristic name="W" typeId="26ad-6be9-20fc-87e8">-</characteristic>
+            <characteristic name="I" typeId="816c-4b95-26f0-6cf9">-</characteristic>
+            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">-</characteristic>
+            <characteristic name="Save" typeId="5290-26c2-5952-820e">-</characteristic>
+            <characteristic name="OC" typeId="8625-5b90-edf7-3223">-</characteristic>
+            <characteristic name="WS" typeId="e669-c236-c599-6366">5</characteristic>
+            <characteristic name="BS" typeId="8704-5772-2d99-d251">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Skulls of the Fallen" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="ad22-fe43-3109-a535">
+          <characteristics>
+            <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Skull Cannon" hidden="false" id="aef4-1645-d710-5837">
+          <profiles>
+            <profile name="Skull Cannon" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="260f-c977-7d91-1e4e">
+              <characteristics>
+                <characteristic name="Range" typeId="8803-da3d-b921-66fb">48&quot;</characteristic>
+                <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
+                <characteristic name="S" typeId="1461-30f6-c26e-c6bc">10</characteristic>
+                <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-2</characteristic>
+                <characteristic name="D" typeId="611d-f568-3148-2eaa">3</characteristic>
+                <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Armour Bane 3, Blast 3&quot;, Hull (Centerline)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b015-fa2e-c7ec-0a9b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4b9-2308-553a-2244" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Hull " id="39dd-8fc8-26eb-7901" hidden="false" type="rule" targetId="393a-2692-1504-41f3"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Attendants&apos; Hellblades" hidden="false" id="6129-cf6f-c8b3-b265">
+          <profiles>
+            <profile name="Attendants&apos; Hellblades" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="4021-7998-9f7b-ce50">
+              <characteristics>
+                <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">4</characteristic>
+                <characteristic name="S" typeId="df8e-f430-9fe1-4a41">5</characteristic>
+                <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                <characteristic name="D" typeId="7578-e96b-1d31-e424">2</characteristic>
+                <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf">Extra Attacks</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8d44-4f39-c84d-df34" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0afa-0f68-a695-7e9c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Biting Maw" hidden="false" id="7a7d-2d74-4a43-a44b">
+          <profiles>
+            <profile name="Biting Maw" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="db13-841a-8e49-1699">
+              <characteristics>
+                <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">2</characteristic>
+                <characteristic name="S" typeId="df8e-f430-9fe1-4a41">6</characteristic>
+                <characteristic name="AP" typeId="1c2a-29d5-521a-8385">0</characteristic>
+                <characteristic name="D" typeId="7578-e96b-1d31-e424">2</characteristic>
+                <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1dc2-f369-14d9-10eb" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e43-425b-8e05-25d0" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="95"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="8910-9b59-633b-af13" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Daemon Prince" hidden="false" id="7002-d96c-c9e7-f33c">
+      <categoryLinks>
+        <categoryLink targetId="b30a-aa57-2633-ffe6" id="2cf8-5cbf-ec8c-03ef" primary="false" name="Character"/>
+        <categoryLink targetId="8e14-ff14-a73f-bba8" id="9746-be7e-3db1-d67d" primary="false" name="Monster"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Daemon Prince" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="f206-0f6e-fc2b-43e6">
+          <characteristics>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">8&quot;</characteristic>
+            <characteristic name="T" typeId="d9b2-02e7-3454-c645">10</characteristic>
+            <characteristic name="W" typeId="26ad-6be9-20fc-87e8">10</characteristic>
+            <characteristic name="I" typeId="816c-4b95-26f0-6cf9">8</characteristic>
+            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">6+</characteristic>
+            <characteristic name="Save" typeId="5290-26c2-5952-820e">4+/4+</characteristic>
+            <characteristic name="OC" typeId="8625-5b90-edf7-3223">3</characteristic>
+            <characteristic name="WS" typeId="e669-c236-c599-6366">8</characteristic>
+            <characteristic name="BS" typeId="8704-5772-2d99-d251">5</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="12" field="d9b2-02e7-3454-c645">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="7002-d96c-c9e7-f33c" childId="187d-0db4-3bde-4d07" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="9d17-06ec-83cb-b046">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="7002-d96c-c9e7-f33c" childId="b5e4-2fc4-ab0f-d92a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="12&quot;" field="9d17-06ec-83cb-b046">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="7002-d96c-c9e7-f33c" childId="850d-d7ac-aaf5-31da" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Malefic Destruction" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="f700-5261-d7c4-9a26">
+          <characteristics>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046"/>
+            <characteristic name="T" typeId="d9b2-02e7-3454-c645"/>
+            <characteristic name="W" typeId="26ad-6be9-20fc-87e8"/>
+            <characteristic name="I" typeId="816c-4b95-26f0-6cf9"/>
+            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e"/>
+            <characteristic name="Save" typeId="5290-26c2-5952-820e"/>
+            <characteristic name="OC" typeId="8625-5b90-edf7-3223"/>
+            <characteristic name="WS" typeId="e669-c236-c599-6366"/>
+            <characteristic name="BS" typeId="8704-5772-2d99-d251"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Gift of Khorne" hidden="false" id="9ed7-1afb-06b2-85f5" type="selectionEntryGroup" targetId="e988-6b9e-8939-93dd"/>
+        <entryLink import="true" name="Relic Weapon" hidden="false" id="6397-c36d-391e-c7c1" type="selectionEntryGroup" targetId="3f22-275f-ed0c-6b2a"/>
+        <entryLink import="true" name="Reward of Chaos" hidden="false" id="c131-1248-a3dd-ad9a" type="selectionEntryGroup" targetId="2ff4-aa24-b63e-1328"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Daemonic Allegiance" id="d64a-fa5a-6054-48b9" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Khorne" hidden="false" id="97bd-34fe-5cc9-6163">
+              <profiles>
+                <profile name="Khorne" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="ac5e-5ed0-07fa-0dd0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Add 2 to the Strength characteristic of this model’s hellforged weapons.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tzeentch" hidden="false" id="ba09-ef29-8014-231f">
+              <profiles>
+                <profile name="Tzeentch" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="0714-8f85-b9f4-b3d7">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Add 3 to the Attacks characteristic of this model’s infernal cannon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Slaanesh" hidden="false" id="b5e4-2fc4-ab0f-d92a">
+              <profiles>
+                <profile name="Slaanesh" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="cf11-9c54-b189-1fd5">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Add 2&quot; to this model’s Move characteristic.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nurgle" hidden="false" id="187d-0db4-3bde-4d07">
+              <profiles>
+                <profile name="Nurgle" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="04fe-0c29-ee57-72fe">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Add 2 to this model’s Toughness characteristic.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="41c7-f237-6917-06ae" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3671-06ee-b264-4a18" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Ascend to Glory" id="8fdd-5696-2b65-9079" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Prince of Darkness (Aura)" hidden="false" id="4872-d143-1996-fea2">
+              <profiles>
+                <profile name="Prince of Darkness (Aura)" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="74c5-542a-4075-f410">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">While a friendly LEGIONES DAEMONICA unit is within 6&quot; of this model, models in that unit have the Stealth ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unholy Vigour" hidden="false" id="64b2-19ae-f4a8-6993">
+              <profiles>
+                <profile name="Unholy Vigour" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="fd22-2875-2e2e-cada">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 3+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Malefic Destruction" hidden="false" id="5bac-e721-f46a-b615">
+              <profiles>
+                <profile name="Malefic Destruction" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="b8e4-5c19-c5cc-9023">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of this model’s hellforged weapons.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Harbringer of Death" hidden="false" id="e83d-8c47-72a2-0b72">
+              <profiles>
+                <profile name="Harbringer of Death" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="c9d9-02a2-6850-0c51">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time this model is selected to fight, select one of the following abilities. Until the end of the phase, this model’s hellforged weapons have that ability:
+    [LETHAL HITS]
+    [PRECISION]
+    [SUSTAINED HITS 1]</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d002-f019-d3b1-1354" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7f8d-1878-7817-ee3b" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Daemonic Wings" hidden="false" id="850d-d7ac-aaf5-31da">
+          <profiles>
+            <profile name="Daemonic Wings" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="eed8-0022-d46f-2630">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This unit has a Move characteristic of 12&quot; and the Fly keyword.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="15"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b2f-ea8c-f7b0-f1d2" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="ab86-6942-3075-e41d">
+          <profiles>
+            <profile name="Infernal Cannon" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="33d9-191e-4904-e3b5">
+              <characteristics>
+                <characteristic name="Range" typeId="8803-da3d-b921-66fb">24&quot;</characteristic>
+                <characteristic name="A" typeId="6134-ff68-9149-8f90">3</characteristic>
+                <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
+                <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-1</characteristic>
+                <characteristic name="D" typeId="611d-f568-3148-2eaa">2</characteristic>
+                <characteristic name="Keywords" typeId="7213-07c4-589f-59c7"/>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="6" field="6134-ff68-9149-8f90">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="7002-d96c-c9e7-f33c" childId="ba09-ef29-8014-231f" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hellforged Weapons" hidden="false" id="b62d-f1f1-b4a4-3a4a">
+          <profiles>
+            <profile name="Hellforged Weapons - Strike" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="34fa-e619-abbc-d6a7">
+              <characteristics>
+                <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">6</characteristic>
+                <characteristic name="S" typeId="df8e-f430-9fe1-4a41">8</characteristic>
+                <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
+                <characteristic name="D" typeId="7578-e96b-1d31-e424">3</characteristic>
+                <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="10" field="df8e-f430-9fe1-4a41">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="7002-d96c-c9e7-f33c" childId="97bd-34fe-5cc9-6163" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="Hellforged Weapons - Sweep" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="9005-ed53-f2b5-56fd">
+              <characteristics>
+                <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">14</characteristic>
+                <characteristic name="S" typeId="df8e-f430-9fe1-4a41">6</characteristic>
+                <characteristic name="AP" typeId="1c2a-29d5-521a-8385">0</characteristic>
+                <characteristic name="D" typeId="7578-e96b-1d31-e424">1</characteristic>
+                <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="8" field="df8e-f430-9fe1-4a41">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="7002-d96c-c9e7-f33c" childId="97bd-34fe-5cc9-6163" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="03f8-b337-d0a9-4b04" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="Deadly Demise" id="026f-05ad-0319-50c6" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value=" D3" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Relic Weapon" id="3f22-275f-ed0c-6b2a" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1131-fee9-434c-f038" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="A&apos;rgath, the King of Blades" hidden="false" id="8769-f650-8b8c-9b09">
+          <profiles>
+            <profile name="A&apos;rgath, the King of Blades" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="2918-fa9a-bbfb-0dde">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">KHORNE LEGIONES DAEMONICA model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cb54-e125-1002-b7d7" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Slaughter and Carnage" hidden="false" id="29a7-ca11-94f1-3aaf">
+          <profiles>
+            <profile name="Slaughter and Carnage" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="24ca-1dfa-27c8-0732">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Bloodthirster model only</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Slaughter and Carnage - Strike" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="3ae3-a08f-3ec3-5672">
+              <characteristics>
+                <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">8</characteristic>
+                <characteristic name="S" typeId="df8e-f430-9fe1-4a41">16</characteristic>
+                <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-4</characteristic>
+                <characteristic name="D" typeId="7578-e96b-1d31-e424">6</characteristic>
+                <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+              </characteristics>
+            </profile>
+            <profile name="Slaughter and Carnage - Sweep" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="4beb-3066-6a5f-593b">
+              <characteristics>
+                <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">16</characteristic>
+                <characteristic name="S" typeId="df8e-f430-9fe1-4a41">8</characteristic>
+                <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-1</characteristic>
+                <characteristic name="D" typeId="7578-e96b-1d31-e424">2</characteristic>
+                <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="25"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a640-32f6-35f8-5ed6" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Skullreaver" hidden="false" id="3864-1749-120c-7122">
+          <profiles>
+            <profile name="Skullreaver" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="611d-d93a-99a0-6f8f">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Model equipped with axe of Khorne only. This Relic replaces an axe of Khorne and has the following profile:</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Skullreaver - Strike" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="5149-290e-dd0b-e6a8">
+              <characteristics>
+                <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">8</characteristic>
+                <characteristic name="S" typeId="df8e-f430-9fe1-4a41">16</characteristic>
+                <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-4</characteristic>
+                <characteristic name="D" typeId="7578-e96b-1d31-e424">2D3</characteristic>
+                <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf">Each time an attack is made against a VEHICLE or MONSTER unit, change the Damage characteristic of this weapon to D3+3.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Skullreaver - Sweep" typeId="598c-0467-623f-5fb9" typeName="Melee Weapon" hidden="false" id="613a-6f60-8c41-52fe">
+              <characteristics>
+                <characteristic name="Range" typeId="8074-e0ed-3953-a444">Melee</characteristic>
+                <characteristic name="A" typeId="4c87-a7d8-ec99-4be5">16</characteristic>
+                <characteristic name="S" typeId="df8e-f430-9fe1-4a41">8</characteristic>
+                <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-3</characteristic>
+                <characteristic name="D" typeId="7578-e96b-1d31-e424">1</characteristic>
+                <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cf0e-a362-f9e2-e6b7" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Exalted Bloodthirster " id="6810-ade8-3904-dc85" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Indomitable Onslaught" hidden="false" id="25bf-2a88-7f49-d858">
+          <profiles>
+            <profile name="Indomitable Onslaught" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="5b5c-542e-da0f-06ea">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This model cannot lose more than 8 wounds in the same phase. Any wounds that would be lost after that point are not lost.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="50"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b408-6376-336f-b98b" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Master of the Blood Tide" hidden="false" id="29ae-1479-13bf-5fce">
+          <profiles>
+            <profile name="Master of the Blood Tide" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="074e-6e8c-3a84-1e91">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time this model fights, if it made a charge move, or was charged, then until that fight is resolved, add 1 to this model’s Strength and Attacks characteristics.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="65fc-c46b-9ed0-2373" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rage Unchained" hidden="false" id="cab5-d10b-b4b3-3218">
+          <profiles>
+            <profile name="Rage Unchained" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="75cd-f948-57bc-5655">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This model is considered to have double the number of wounds remaining for the purposes of determining what its characteristics are.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="35"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7545-0cba-23e7-44af" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fb0-6b27-7ac3-32ff" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Gift of Khorne" id="e988-6b9e-8939-93dd" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Aspect of Death (Aura)" hidden="false" id="e909-581b-0170-1a36">
+          <profiles>
+            <profile name="Aspect of Death (Aura)" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="c4f7-abdf-1f82-69ba">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">While an enemy unit is within 6&quot; of this model:
+-    Subtract 1 from the Leadership characteristic of models in that unit.
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="25"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4d50-07a4-9a86-bfb9" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Brazen Hide" hidden="false" id="8e53-1f71-31cb-08db">
+          <profiles>
+            <profile name="Brazen Hide" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="ef27-4e2a-a655-da58">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time this model would lose a wound, roll one D6: on a 6+, that wound is not lost. If this model is not a monster, on a 5+, that wound is not lost instead.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a556-7c03-6f72-4e69" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="20"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Devastating Blows" hidden="false" id="b6f2-061e-ab24-6d08">
+          <profiles>
+            <profile name="Devastating Blows" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="385a-717f-be17-add4">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bba5-a4fb-ebc7-f4c4" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="30"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rage Incarnate" hidden="false" id="1aaf-b518-d227-4b1d">
+          <profiles>
+            <profile name="Rage Incarnate" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="21f4-2066-b34d-51b0">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Add 1 to Advance and charge rolls made for this unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f166-4da4-edf7-a264" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="25"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b726-b97f-76a4-b606" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Reward of Chaos" id="2ff4-aa24-b63e-1328" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Greater Magic Weapon" hidden="false" id="2387-beaa-74b5-f17d">
+          <profiles>
+            <profile name="Greater Magic Weapon" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="e4d5-b944-2e6c-bf16">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Add 1 to the Strength and Armour Penetration of this model&apos;s weapon.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Corpulescence" hidden="false" id="153c-7cc2-3ff7-09fd">
+          <profiles>
+            <profile name="Corpulescence" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="889e-c88f-2084-4b95">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Increase the Wounds characteristic of the model by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="5"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Daemonic Resilience" hidden="false" id="b64e-5523-c10e-c0e1">
+          <profiles>
+            <profile name="Daemonic Resilience" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="dca6-f6fc-822b-8465">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This model has the Feel No Pain 5+ rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dark Blessing" hidden="false" id="d21e-4014-3a77-5088">
+          <profiles>
+            <profile name="Dark Blessing" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="68fb-76e8-c938-aa5d">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This daemon re-rolls all failed saves</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hellfire Gaze" hidden="false" id="e8f4-ad3a-92c7-fc40">
+          <profiles>
+            <profile name="Hellfire Gaze" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="55e7-5682-1418-97ce">
+              <characteristics>
+                <characteristic name="Range" typeId="8803-da3d-b921-66fb">12&quot;</characteristic>
+                <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
+                <characteristic name="S" typeId="1461-30f6-c26e-c6bc">6</characteristic>
+                <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-2</characteristic>
+                <characteristic name="D" typeId="611d-f568-3148-2eaa">2</characteristic>
+                <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Pistol" id="c6e3-3083-b5b1-2520" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Touch of Uncreation" hidden="false" id="d318-911a-0cdb-d0d5">
+          <profiles>
+            <profile name="Touch of Uncreation" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="cbb6-d1da-2a9a-18e0">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Melee weapons equipped by this model gain the ANTI-MONSTER 4+ and ANTI-VEHICLE 4+ abilities.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Unbreakable Hide" hidden="false" id="2ed0-3eff-21a2-7693">
+          <profiles>
+            <profile name="Unbreakable Hide" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="c337-765d-a661-aed5">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Improve the Save of this model by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="15"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="795c-88ea-dd3a-7ba0" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
