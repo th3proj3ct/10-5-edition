@@ -116,61 +116,59 @@
               <costs>
                 <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="16"/>
               </costs>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon" id="983c-a85d-9e85-ddb0" hidden="false" defaultSelectionEntryId="eac7-5d28-dc30-6249">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Gauss Blaster" hidden="false" id="a005-334a-04da-1726">
-                      <profiles>
-                        <profile name="Gauss Blaster" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="af7b-3be6-abfb-8b91">
-                          <characteristics>
-                            <characteristic name="Range" typeId="8803-da3d-b921-66fb">30&quot;</characteristic>
-                            <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
-                            <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
-                            <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-1</characteristic>
-                            <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
-                            <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Devastating Wounds, Rapid-Fire 1</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Devastating Wounds" id="112d-c041-92ea-f719" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Tesla Carbine" hidden="false" id="dfab-2f0e-eac2-762f">
-                      <profiles>
-                        <profile name="Tesla Carbine" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="83a4-423e-19db-83a5">
-                          <characteristics>
-                            <characteristic name="Range" typeId="8803-da3d-b921-66fb">24&quot;</characteristic>
-                            <characteristic name="A" typeId="6134-ff68-9149-8f90">2</characteristic>
-                            <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
-                            <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">0</characteristic>
-                            <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
-                            <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Assault, Sustsained Hits 2</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Assault" id="3218-eee2-da85-353e" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                        <infoLink name="Sustained Hits" id="1c21-23f2-c524-b05a" hidden="false" type="rule" targetId="1897-c22c-9597-12b1">
-                          <modifiers>
-                            <modifier type="append" value="2" field="name"/>
-                          </modifiers>
-                        </infoLink>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b421-4c42-8090-f399" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="793c-b043-5a0b-d159" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <constraints>
                 <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="9800-db5a-93c8-e5be" includeChildSelections="false"/>
                 <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="b677-e597-ece7-4d3a" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapon" id="983c-a85d-9e85-ddb0" hidden="false" defaultSelectionEntryId="eac7-5d28-dc30-6249">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gauss Blaster" hidden="false" id="a005-334a-04da-1726">
+              <profiles>
+                <profile name="Gauss Blaster" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="af7b-3be6-abfb-8b91">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8803-da3d-b921-66fb">30&quot;</characteristic>
+                    <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
+                    <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
+                    <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-1</characteristic>
+                    <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
+                    <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Devastating Wounds, Rapid-Fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Devastating Wounds" id="112d-c041-92ea-f719" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tesla Carbine" hidden="false" id="dfab-2f0e-eac2-762f">
+              <profiles>
+                <profile name="Tesla Carbine" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="83a4-423e-19db-83a5">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8803-da3d-b921-66fb">24&quot;</characteristic>
+                    <characteristic name="A" typeId="6134-ff68-9149-8f90">2</characteristic>
+                    <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
+                    <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">0</characteristic>
+                    <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
+                    <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Assault, Sustsained Hits 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Assault" id="3218-eee2-da85-353e" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                <infoLink name="Sustained Hits" id="1c21-23f2-c524-b05a" hidden="false" type="rule" targetId="1897-c22c-9597-12b1">
+                  <modifiers>
+                    <modifier type="append" value="2" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b421-4c42-8090-f399" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="793c-b043-5a0b-d159" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
@@ -748,8 +746,8 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or 
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <constraints>
-                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5af6-f2a8-0734-c0ea" includeChildSelections="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d93d-8d6a-3fdb-98e3" includeChildSelections="false"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="5af6-f2a8-0734-c0ea" includeChildSelections="false"/>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="d93d-8d6a-3fdb-98e3" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
