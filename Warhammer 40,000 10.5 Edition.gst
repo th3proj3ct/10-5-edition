@@ -122,54 +122,12 @@
     <rule name="Blast" id="6c1f-1cf7-ff25-c99e" hidden="false" publicationId="48fc-15aa-b307-9443" page="26">
       <description>When firing a Blast weapon, models do not roll To Hit. Instead, pick one enemy model visible to the firer and place the Blast (3&quot;) marker with its hole entirely over the base of the target model, or its hull if the target is a Vehicle. The hole at the centre of the marker must be within the weapon’s Maximum Range. You cannot place the Blast marker so that the base or hull of any friendly model is even partially under it.
 
-
-The large area affected by the blast means it is going to be very hard to miss completely. Nonetheless, the shot might not land exactly where intended. Roll for the Blast marker to scatter and subtract the firer’s Ballistic Skill from the distance (if any) that it scatters, to a minimum of 0&quot;. Note that it is possible, and absolutely fine, for a shot to scatter beyond the weapon’s Maximum or Minimum Range and line of sight. This represents the chance of ricochets, the missile blasting through cover and other random events. In these cases, Hits are worked out as normal and can hit and Wound units out of range and line of sight (or even your own units, or models locked in combat). If the shot scatters so that the hole in the centre of the marker is beyond the battlefield’s edge, the shot is a complete miss and is discarded.
-
+Roll a D6 for the Blast marker to scatter and subtract the firer’s Ballistic Skill from the distance (if any) that it scatters, to a minimum of 0&quot;. 
 
 Once the final position of the Blast marker has been determined, take a good look at it from above – each unit suffers one Hit for each of the models included in that unit that is fully or partially beneath the Blast marker, even if those models are not within the firer’s line of sight.
 
-
-Once the number of Hits inflicted on the unit has been worked out, roll To Wound and Save as normal. Note that, unlike other attacks, Wounds inflicted by an attack with the Blast special rule can be allocated to any models in the target unit, even if they are out of sight of any models from the attacking unit.
-
-
-Multiple Blasts
-If a unit is firing more than one shot with the Blast special rule, scatter each shot, one at a time, as described above and determine how many Hits are scored with each individual Blast marker. After the last shot, add up the total number of Hits scored and roll all of the To Wound rolls as normal.
-
-
-Blast Weapons and Re-rolls
-If a model has the ability to re-roll its rolls To Hit and chooses to do so after firing a Blast weapon, the player must re-roll both the Scatter dice and the 2D6. Note that this applies only to models able to fully re-roll a To Hit roll, not to models that may re-roll To Hit rolls of a specific value – for example, models that can re-roll To Hit rolls of a ‘1’ cannot re-roll either the Scatter dice or 2D6 unless another rule allows them to do so.
-
-
-Blast Weapons and Snap Shots
-Blast weapons cannot be fired as Snap Shots.
-
-
-Large Blast
-Large Blast weapons use the 5&quot; Blast marker, but otherwise obey all the rules for Blast weapons.
-
-
-Massive Blast
-Massive Blast weapons use the 7&quot; Blast marker, but otherwise obey all the rules for Blast weapons.
-
-
-Apocalyptic Blast
-Apocalyptic Blast weapons use the 10&quot; Blast marker, but otherwise obey all the rules for Blast weapons.
-
-
-Apocalyptic Mega-blast (5&quot;/7&quot;/10&quot;)
-Apocalyptic Mega-blast weapons use the Apocalyptic Blast marker. They obey the rules for Blast weapons, with the following exceptions:
-
-
-Apocalyptic Mega-blast weapons have three Strength values and three AP values. Correspondingly, the Apocalyptic Blast marker is divided into three zones, as shown in the diagram on the next page, one for each Strength and AP value.
-
-
-The Strength and AP of any Hits depends on the zone in which the target model is located. The first Strength and AP value are used for the inner zone, the second Strength and AP value are used for the middle zone, and the third Strength and AP value are used for the outer zone. Always use the best Strength and AP if a model straddles two or more zones. If a unit has models in several zones, work out the Hits inflicted for each zone separately. Note that there will be a different Wound Pool for each zone.
-
-
-To determine whether a unit wounded by an Apocalyptic Mega-blast weapon is allowed a Cover Save, and when determining Wound allocation, always assume the shot is coming from the centre of the Apocalyptic Blast marker, instead of from the firing model.
-
-
-Hits from Apocalyptic Mega-blast weapons made against Vehicles are always resolved against their Side Armour Value.</description>
+Once the number of Hits inflicted on the unit has been worked out, roll To Wound and Save as normal.
+</description>
     </rule>
     <rule name="Deadly Demise" id="b68a-5ded-65ac-98c" hidden="false" publicationId="48fc-15aa-b307-9443" page="23">
       <description>Some models have &apos;Deadly Demise x&apos; listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6&quot; of that model suffers a number of mortal wounds denoted by &apos;x&apos; (if this is a random number, roll separately for each unit within 6&quot;).</description>
@@ -197,7 +155,7 @@ suffers damage and so would lose a wound.</description>
       <description>Weapons with [HAZARDOUS] in their profile are known as Hazardous weapons. Each time a unit is selected to shoot or fight, if one or more models attack with Hazardous weapons, then after that unit has resolved all of its attacks, you must take one Hazardous test for each Hazardous weapon that was just used by rolling one D6. For each roll of 1, that test is failed and one model in that unit equipped with a Hazardous weapon is destroyed (selected by the controlling player), unless that model is a Character, Monster or Vehicle, in which case it suffers 3 mortal wounds instead. Note that if you selected a Character model in an Attached unit, the mortal wounds suffered must be allocated to that model first, even if there is another model in that unit that has lost one or more wounds or has had attacks allocated to it this phase.</description>
     </rule>
     <rule name="Heavy" id="1202-10a8-78e9-4c67" hidden="false" publicationId="48fc-15aa-b307-9443" page="26">
-      <description>Weapons with [HEAVY] in their profile are known as Heavy weapons. Each time an attack is made with such a weapon, if the attacking model’s unit Remained Stationary this turn, add 1 to that attack’s Hit roll.</description>
+      <description>Subtract 1 from hit rolls if firing model is INFANTRY and its unit has moved this turn.</description>
     </rule>
     <rule name="Hover" id="eec5-5f54-9c03-c305" hidden="false" publicationId="48fc-15aa-b307-9443" page="53">
       <description>Some AIRCRAFT models have &apos;Hover&apos; listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode.
