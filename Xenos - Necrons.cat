@@ -278,6 +278,14 @@
       <costs>
         <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="350"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="C&apos;tan Powers" hidden="false" id="d522-5bcc-d942-469d" type="selectionEntryGroup" targetId="2503-03fc-44a1-25f1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be3b-1485-8361-7bb5" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7600-4c24-9f42-c72b" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Technomancer" hidden="false" id="a060-dea3-18b9-59ed">
       <profiles>
@@ -2046,6 +2054,126 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or 
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1dac-62df-7f86-4cff" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="C&apos;tan Powers" id="2503-03fc-44a1-25f1" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Antimatter Meteor" hidden="false" id="6dab-2ce5-7d36-b3ae">
+          <profiles>
+            <profile name="Antimatter Meteor" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="dd72-8ef9-b2e1-c14c">
+              <characteristics>
+                <characteristic name="Range" typeId="8803-da3d-b921-66fb">24&quot;</characteristic>
+                <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
+                <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
+                <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-2</characteristic>
+                <characteristic name="D" typeId="611d-f568-3148-2eaa">2</characteristic>
+                <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Blast 3&quot;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="804c-e8da-77fc-f3bd" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Time&apos;s Arrow" hidden="false" id="dff6-3b7c-a2f6-3a75">
+          <profiles>
+            <profile name="Time&apos;s Arrow" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="7434-80af-0fae-f3ac">
+              <characteristics>
+                <characteristic name="Range" typeId="8803-da3d-b921-66fb">18&quot;</characteristic>
+                <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
+                <characteristic name="S" typeId="1461-30f6-c26e-c6bc">12</characteristic>
+                <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-3</characteristic>
+                <characteristic name="D" typeId="611d-f568-3148-2eaa">D6</characteristic>
+                <characteristic name="Keywords" typeId="7213-07c4-589f-59c7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="697c-0119-2f15-7579" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sky of Falling Stars" hidden="false" id="6504-16f4-3beb-02f3">
+          <profiles>
+            <profile name="Sky of Falling Stars" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="e74c-f380-93f7-70fd">
+              <characteristics>
+                <characteristic name="Range" typeId="8803-da3d-b921-66fb">24&quot;</characteristic>
+                <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
+                <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
+                <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-1</characteristic>
+                <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
+                <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Blast 3&quot;, Falling Stars</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Falling Stars" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="80f6-db51-d390-7fc7">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This weapon can be fired twice, but a different unit must be selected for each attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="42d5-6a99-af46-8f04" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Cosmic Fire" hidden="false" id="9cbf-95e8-65ff-58b7">
+          <profiles>
+            <profile name="Cosmic Fire" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="8edf-4b51-7d6c-6ced">
+              <characteristics>
+                <characteristic name="Range" typeId="8803-da3d-b921-66fb">9&quot;</characteristic>
+                <characteristic name="A" typeId="6134-ff68-9149-8f90">D3+1</characteristic>
+                <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
+                <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-1</characteristic>
+                <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
+                <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Torrent, Ignores Cover</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Torrent" id="7e32-72aa-083a-6891" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+            <infoLink name="Ignores Cover" id="d787-3769-9a9a-d403" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d8d-859f-3d09-a13c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Siesmic Assault" hidden="false" id="fe8d-2361-f354-2288">
+          <profiles>
+            <profile name="Siesmic Assault" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="3f4c-c5b0-2ed9-c154">
+              <characteristics>
+                <characteristic name="Range" typeId="8803-da3d-b921-66fb">18&quot;</characteristic>
+                <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
+                <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
+                <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">0</characteristic>
+                <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
+                <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Blast 5&quot;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fe4-e5cf-2d5b-4b96" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Transdimensional Thunderbolt" hidden="false" id="53c7-f7ae-e9bf-9eb6">
+          <profiles>
+            <profile name="Transdimensional Thunderbolt" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="3878-affd-1e22-1fec">
+              <characteristics>
+                <characteristic name="Range" typeId="8803-da3d-b921-66fb">24&quot;</characteristic>
+                <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
+                <characteristic name="S" typeId="1461-30f6-c26e-c6bc">5</characteristic>
+                <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">0</characteristic>
+                <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
+                <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Blast 3&quot;, Thunderbolt</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Thunderbolt" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="9338-0b36-e378-e4ed">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">If a model is under the center of the blast template, that model&apos;s unit suffers D3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64b4-e302-26de-b4fc" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>

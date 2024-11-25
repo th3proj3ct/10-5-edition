@@ -23,13 +23,11 @@
       <profiles>
         <profile name="Captain" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="c1ba-2289-ba1-9cb8">
           <characteristics>
-            <characteristic name="Unit Type" typeId="f6e9-8f3f-9571-3e91">Infantry</characteristic>
-            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">7</characteristic>
-            <characteristic name="S" typeId="825e-8d9a-dee0-4dd7">4</characteristic>
+            <characteristic name="Move" typeId="9d17-06ec-83cb-b046">7&quot;</characteristic>
             <characteristic name="T" typeId="d9b2-02e7-3454-c645">4</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">5</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">5</characteristic>
-            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">10</characteristic>
+            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">9</characteristic>
             <characteristic name="Save" typeId="5290-26c2-5952-820e">3+</characteristic>
             <characteristic name="OC" typeId="8625-5b90-edf7-3223">1</characteristic>
             <characteristic name="WS" typeId="e669-c236-c599-6366">6</characteristic>
@@ -1614,13 +1612,11 @@ You can attach this model to one of the above units even if one Captain or Chapt
       <profiles>
         <profile name="Lieutenant" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="1ff2-cb28-a9a8-5ca">
           <characteristics>
-            <characteristic name="Unit Type" typeId="f6e9-8f3f-9571-3e91">Infantry</characteristic>
             <characteristic name="Move" typeId="9d17-06ec-83cb-b046">7&quot;</characteristic>
-            <characteristic name="S" typeId="825e-8d9a-dee0-4dd7">4</characteristic>
             <characteristic name="T" typeId="d9b2-02e7-3454-c645">4</characteristic>
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">4</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">5</characteristic>
-            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">9</characteristic>
+            <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">8</characteristic>
             <characteristic name="Save" typeId="5290-26c2-5952-820e">3+</characteristic>
             <characteristic name="OC" typeId="8625-5b90-edf7-3223">1</characteristic>
             <characteristic name="WS" typeId="e669-c236-c599-6366">5</characteristic>
@@ -1646,4 +1642,188 @@ You can attach this model to one of the above units even if one Captain or Chapt
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Librarian" hidden="false" id="00b9-869a-acd8-cb84">
+      <costs>
+        <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="65"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armour" id="fa70-1cbc-c1c3-bda3" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Tacticus" hidden="false" id="0e81-da14-97ea-9b2a">
+              <profiles>
+                <profile name="Leader" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="c520-3bd7-7e24-8874">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This model can be attached to the following units:
+    Assault Intercessor Squad
+    Desolation Squad
+    Devastator Squad
+    Hellblaster Squad
+    Infernus Squad
+    Intercessor Squad
+    Sternguard Veteran Squad
+    Tactical Squad</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Librarian" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="d751-047b-dc5e-62d6">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">7&quot;</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">4</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">4</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">9</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">3+</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">1</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">4</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Terminator" hidden="false" id="2033-8177-6b88-f3f8">
+              <profiles>
+                <profile name="Leader" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="dea9-804a-d726-0827">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This model can be attached to the following units:
+    Terminator Assault Squad
+    Terminator Squad</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Librarian in Terminator Armour" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="2594-e0eb-0c6b-f5a2">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">6&quot;</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">5</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">5</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">9</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">2+/4++</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">1</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">4</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Phobos" hidden="false" id="40ac-3680-c7a9-dbdd">
+              <profiles>
+                <profile name="Leader" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="658c-513a-17ee-a815">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This model can be attached to the following units:
+    Eliminator Squad
+    Incursor Squad
+    Infiltrator Squad
+    Reiver Squad</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Librarian in Phobos Armour" typeId="b748-c343-d3ed-9395" typeName="Unit" hidden="false" id="feb7-168b-f8c7-b437">
+                  <characteristics>
+                    <characteristic name="Move" typeId="9d17-06ec-83cb-b046">7&quot;</characteristic>
+                    <characteristic name="T" typeId="d9b2-02e7-3454-c645">4</characteristic>
+                    <characteristic name="W" typeId="26ad-6be9-20fc-87e8">4</characteristic>
+                    <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
+                    <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">9</characteristic>
+                    <characteristic name="Save" typeId="5290-26c2-5952-820e">3+</characteristic>
+                    <characteristic name="OC" typeId="8625-5b90-edf7-3223">1</characteristic>
+                    <characteristic name="WS" typeId="e669-c236-c599-6366">4</characteristic>
+                    <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Obscuration Discipline" hidden="false" id="27eb-313c-a7da-d7e8" type="selectionEntryGroup" targetId="2048-9e3f-330c-a625">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="138b-7e9c-5e7a-ec0f" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Obscuration Discipline" id="2048-9e3f-330c-a625" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="1) Shrouding" hidden="false" id="1077-08b9-b6f7-2863">
+          <profiles>
+            <profile name="1) Shrouding" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="89ea-3970-8682-7e09">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Blessing: Shrouding has a warp charge value of 6. If manifested, until the start of your next Command phase, all models in this unit have the Lone Operative ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4582-d06c-258f-567d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="2) Soul Sight" hidden="false" id="6eaa-be68-bccf-541a">
+          <profiles>
+            <profile name="2) Soul Sight" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="5f63-5001-63e1-4167">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Blessing: Soul Sight has a warp charge value of 6. If manifested, until the start of your next Command phase, each time a model in this unit makes a ranged attack, you can re-roll the hit roll and the target does not receive the benefits of cover against that attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1087-2f44-694d-fe17" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="3) Mind Raid" hidden="false" id="6b2c-1314-23b4-7989">
+          <profiles>
+            <profile name="3) Mind Raid" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="c560-d98d-b30a-8b94">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Witchfire: Mind Raid has a warp charge value of 6. If manifested, select one enemy model within 18&quot; of and visible to this PSYKER.
+-    That model’s unit suffers 1 mortal wound.
+-    If that model is a CHARACTER, roll 3D6: if the result is equal to or greater than that model’s Leadership characteristic, that unit takes D3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="601d-1bcc-b30f-db7d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="4) Hallucination" hidden="false" id="1f63-fde4-7dce-bcc4">
+          <profiles>
+            <profile name="4) Hallucination" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="7551-586e-1b10-850b">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Malediction: Hallucination has a warp charge value of 6. If manifested, select one enemy unit within 18&quot; of and visible to this PSYKER.
+    Until the start of your next Psychic phase, subtract 1 from the Leadership characteristic of models in that unit.
+    Until the start of your next Psychic phase, each time a model in that unit makes an attack, subtract 1 from that attack’s hit roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdd0-4898-6398-4407" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="5) Tenebrous Curse" hidden="false" id="b872-8483-7622-35b0">
+          <profiles>
+            <profile name="5) Tenebrous Curse" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="bc60-3380-8b1a-2620">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Malediction: Tenebrous Curse has a warp charge value of 7. If manifested, select one enemy unit that cannot FLY and is within 18&quot; of and visible to this PSYKER.
+    That unit suffers 1 mortal wound.
+    Until the start of your next Psychic phase, halve that unit’s Move characteristic and subtract 2 from Advance rolls and charge rolls made for it.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="777b-9a29-193b-1f9d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="6) Temporal Corridor" hidden="false" id="9c13-5818-5fa1-05f7">
+          <profiles>
+            <profile name="6) Temporal Corridor" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="d9b3-c97c-9dda-f734">
+              <characteristics>
+                <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Blessing: Temporal Corridor has a warp charge value of 5. If manifested and this unit is not within Engagement Range of any enemy models, it can make a Normal Move.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b6fb-857a-b3c5-75c4" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
