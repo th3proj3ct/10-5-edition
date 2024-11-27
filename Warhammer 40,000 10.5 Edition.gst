@@ -122,7 +122,7 @@
     <rule name="Blast" id="6c1f-1cf7-ff25-c99e" hidden="false" publicationId="48fc-15aa-b307-9443" page="26">
       <description>When firing a Blast weapon, models do not roll To Hit. Instead, pick one enemy model visible to the firer and place the Blast (3&quot;) marker with its hole entirely over the base of the target model, or its hull if the target is a Vehicle. The hole at the centre of the marker must be within the weapon’s Maximum Range. You cannot place the Blast marker so that the base or hull of any friendly model is even partially under it.
 
-Roll a D6 for the Blast marker to scatter and subtract the firer’s Ballistic Skill from the distance (if any) that it scatters, to a minimum of 0&quot;. 
+Roll for the Blast marker to scatter and subtract the firer’s Ballistic Skill from the distance (if any) that it scatters, to a minimum of 0&quot;. If the target is within half range, the distance scattered is D6 inches, otherwise the distance is 2D6.
 
 Once the final position of the Blast marker has been determined, take a good look at it from above – each unit suffers one Hit for each of the models included in that unit that is fully or partially beneath the Blast marker, even if those models are not within the firer’s line of sight.
 
@@ -155,7 +155,7 @@ suffers damage and so would lose a wound.</description>
       <description>Weapons with [HAZARDOUS] in their profile are known as Hazardous weapons. Each time a unit is selected to shoot or fight, if one or more models attack with Hazardous weapons, then after that unit has resolved all of its attacks, you must take one Hazardous test for each Hazardous weapon that was just used by rolling one D6. For each roll of 1, that test is failed and one model in that unit equipped with a Hazardous weapon is destroyed (selected by the controlling player), unless that model is a Character, Monster or Vehicle, in which case it suffers 3 mortal wounds instead. Note that if you selected a Character model in an Attached unit, the mortal wounds suffered must be allocated to that model first, even if there is another model in that unit that has lost one or more wounds or has had attacks allocated to it this phase.</description>
     </rule>
     <rule name="Heavy" id="1202-10a8-78e9-4c67" hidden="false" publicationId="48fc-15aa-b307-9443" page="26">
-      <description>Subtract 1 from hit rolls if firing model is INFANTRY and its unit has moved this turn.</description>
+      <description>Subtract 1 from hit rolls if firing model is INFANTRY and its unit has moved over half its Movement this turn.</description>
     </rule>
     <rule name="Hover" id="eec5-5f54-9c03-c305" hidden="false" publicationId="48fc-15aa-b307-9443" page="53">
       <description>Some AIRCRAFT models have &apos;Hover&apos; listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode.
@@ -247,6 +247,9 @@ A model that has made a Disordered Charge that turn receives no benefit from Sud
     </rule>
     <rule name="Armour Bane (X)" id="23fc-5d49-9302-b476" hidden="false">
       <description>If a model with this weapon wounds a VEHICLE or MONSTER unit, improve the damage characteristic by the value in brackets after the special rule</description>
+    </rule>
+    <rule name="Co-axial" id="15a5-0696-9f40-4dcc" hidden="false">
+      <description>Co-axial Mounted weapons must target the same profile as the Turret weapon, or a unit within 3&quot; of the Turret&apos;s target.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
