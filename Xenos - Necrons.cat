@@ -46,7 +46,7 @@
                       </profiles>
                       <infoLinks>
                         <infoLink name="Devastating Wounds" id="8eb9-1212-439e-7884" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-                        <infoLink name="Assault" id="d5a7-036e-2112-6baf" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                        <infoLink name="Rapid Fire" id="d5a7-036e-2112-6baf" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Gauss Reaper" hidden="false" id="5f4b-61a5-9ed4-5f64">
