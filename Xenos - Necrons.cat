@@ -58,12 +58,13 @@
                             <characteristic name="S" typeId="1461-30f6-c26e-c6bc">4</characteristic>
                             <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-1</characteristic>
                             <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
-                            <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Devastating Wounds</characteristic>
+                            <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Assault, Devastating Wounds</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <infoLinks>
                         <infoLink name="Devastating Wounds" id="156c-1824-e9d9-a38c" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                        <infoLink name="Assault" id="5f95-8627-884d-0581" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
