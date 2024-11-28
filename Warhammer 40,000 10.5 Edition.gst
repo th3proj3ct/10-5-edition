@@ -122,12 +122,11 @@
     <rule name="Blast" id="6c1f-1cf7-ff25-c99e" hidden="false" publicationId="48fc-15aa-b307-9443" page="26">
       <description>When firing a Blast weapon, models do not roll To Hit. Instead, pick one enemy model visible to the firer and place the Blast (3&quot;) marker with its hole entirely over the base of the target model, or its hull if the target is a Vehicle. The hole at the centre of the marker must be within the weapon’s Maximum Range. You cannot place the Blast marker so that the base or hull of any friendly model is even partially under it.
 
-Roll for the Blast marker to scatter and subtract the firer’s Ballistic Skill from the distance (if any) that it scatters, to a minimum of 0&quot;. If the target is within half range, the distance scattered is D6 inches, otherwise the distance is 2D6.
+Roll for the Blast marker to scatter and subtract the firer’s Ballistic Skill from the distance (if any) that it scatters, to a minimum of 0&quot;. If the target is within half range or within 10&quot;, the distance scattered is D6 inches, otherwise the distance is 2D6.
 
 Once the final position of the Blast marker has been determined, take a good look at it from above – each unit suffers one Hit for each of the models included in that unit that is fully or partially beneath the Blast marker, even if those models are not within the firer’s line of sight.
 
-Once the number of Hits inflicted on the unit has been worked out, roll To Wound and Save as normal.
-</description>
+Once the number of Hits inflicted on the unit has been worked out, roll To Wound and Save as normal.</description>
     </rule>
     <rule name="Deadly Demise" id="b68a-5ded-65ac-98c" hidden="false" publicationId="48fc-15aa-b307-9443" page="23">
       <description>Some models have &apos;Deadly Demise x&apos; listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6&quot; of that model suffers a number of mortal wounds denoted by &apos;x&apos; (if this is a random number, roll separately for each unit within 6&quot;).</description>

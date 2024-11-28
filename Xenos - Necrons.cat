@@ -875,14 +875,13 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or 
                         <characteristic name="A" typeId="6134-ff68-9149-8f90">1</characteristic>
                         <characteristic name="S" typeId="1461-30f6-c26e-c6bc">12</characteristic>
                         <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-4</characteristic>
-                        <characteristic name="D" typeId="611d-f568-3148-2eaa">D6+1</characteristic>
+                        <characteristic name="D" typeId="611d-f568-3148-2eaa">2D3</characteristic>
                         <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Sustained Hits D3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Blast" id="e574-baa1-2f7b-0c2e" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-                    <infoLink name="Devastating Wounds" id="e4e8-eb5a-9083-229b" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                    <infoLink name="Sustained Hits" id="e574-baa1-2f7b-0c2e" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -898,11 +897,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or 
                     <profile name="Gauss Flux Arc" typeId="b3e2-ec27-7cd0-10bf" typeName="Ranged Weapon" hidden="false" id="e63d-4ccf-06e0-cd25">
                       <characteristics>
                         <characteristic name="Range" typeId="8803-da3d-b921-66fb">24&quot;</characteristic>
-                        <characteristic name="A" typeId="6134-ff68-9149-8f90">2</characteristic>
+                        <characteristic name="A" typeId="6134-ff68-9149-8f90">3</characteristic>
                         <characteristic name="S" typeId="1461-30f6-c26e-c6bc">6</characteristic>
                         <characteristic name="AP" typeId="51bc-3c64-d336-8ae2">-1</characteristic>
                         <characteristic name="D" typeId="611d-f568-3148-2eaa">1</characteristic>
-                        <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Devastating Wounds, Rapid Fire 2</characteristic>
+                        <characteristic name="Keywords" typeId="7213-07c4-589f-59c7">Devastating Wounds, Rapid Fire 3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>

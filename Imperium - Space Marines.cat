@@ -845,10 +845,15 @@ You can attach this model to one of the above units even if one Captain or Chapt
             <characteristic name="S" typeId="df8e-f430-9fe1-4a41">6</characteristic>
             <characteristic name="AP" typeId="1c2a-29d5-521a-8385">-2</characteristic>
             <characteristic name="D" typeId="7578-e96b-1d31-e424">4</characteristic>
-            <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf">Anti-Monster 3+, Anti-Vehicle 3+, Detonation</characteristic>
+            <characteristic name="Keywords" typeId="b8fd-b199-dd63-37cf">Anti-Monster 3+, Anti-Vehicle 3+, Detonation, Devastating Wounds</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Anti-" id="c778-c5f7-60f7-5544" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+        <infoLink name="Devastating Wounds" id="b76b-284a-64d9-f0de" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+        <infoLink name="Detonation" id="b160-30bd-6522-973e" hidden="false" type="rule" targetId="a5d1-7795-6934-b16d"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Frag Grenade" hidden="false" id="9a3c-4fba-5b85-bbd8">
       <profiles>
@@ -2034,6 +2039,11 @@ You can attach this model to one of the above units even if one Captain or Chapt
             <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Turbo-Boost" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="6576-c3d6-c749-7db9">
+          <characteristics>
+            <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6&quot; to the Move characteristic of this unit.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="13f5-9579-e00f-a1b6" value="70"/>
@@ -2209,6 +2219,7 @@ You can attach this model to one of the above units even if one Captain or Chapt
             <modifier type="append" value=" D3" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Vulnerable Flank" id="2254-5577-1679-f37d" hidden="false" type="rule" targetId="00ae-5be8-e442-13bd"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="2718-37a1-72a1-bc61" id="f2f7-2f31-d3ee-2dfc" primary="true" name="Dedicated Transport"/>
@@ -2334,7 +2345,7 @@ You can attach this model to one of the above units even if one Captain or Chapt
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">16</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
             <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">9</characteristic>
-            <characteristic name="Save" typeId="5290-26c2-5952-820e">3+</characteristic>
+            <characteristic name="Save" typeId="5290-26c2-5952-820e">2+</characteristic>
             <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
             <characteristic name="WS" typeId="e669-c236-c599-6366">3</characteristic>
             <characteristic name="BS" typeId="8704-5772-2d99-d251">4</characteristic>
@@ -2347,7 +2358,7 @@ You can attach this model to one of the above units even if one Captain or Chapt
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">16</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
             <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">9</characteristic>
-            <characteristic name="Save" typeId="5290-26c2-5952-820e">3+</characteristic>
+            <characteristic name="Save" typeId="5290-26c2-5952-820e">2+</characteristic>
             <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
             <characteristic name="WS" typeId="e669-c236-c599-6366">2</characteristic>
             <characteristic name="BS" typeId="8704-5772-2d99-d251">2</characteristic>
@@ -2360,15 +2371,15 @@ You can attach this model to one of the above units even if one Captain or Chapt
             <characteristic name="W" typeId="26ad-6be9-20fc-87e8">16</characteristic>
             <characteristic name="I" typeId="816c-4b95-26f0-6cf9">4</characteristic>
             <characteristic name="Ld" typeId="fca5-5d0f-c169-d70e">9</characteristic>
-            <characteristic name="Save" typeId="5290-26c2-5952-820e">3+</characteristic>
+            <characteristic name="Save" typeId="5290-26c2-5952-820e">2+</characteristic>
             <characteristic name="OC" typeId="8625-5b90-edf7-3223">2</characteristic>
             <characteristic name="WS" typeId="e669-c236-c599-6366">3</characteristic>
             <characteristic name="BS" typeId="8704-5772-2d99-d251">3</characteristic>
           </characteristics>
         </profile>
-        <profile name="Executioner" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="31db-51b0-fc4d-2466">
+        <profile name="Aquilon Optics" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="31db-51b0-fc4d-2466">
           <characteristics>
-            <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time this model makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="5eab-8f16-c49a-b79a">Each time this model makes an attack with its heavy laser destroyer or macro plasma incinerator, add 1 to that attack&apos;s hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="da62-c59e-e29f-ade3" typeName="Abilities" hidden="false" id="263f-9ff5-b597-b31b">
@@ -2599,6 +2610,7 @@ You can attach this model to one of the above units even if one Captain or Chapt
             <modifier type="append" value=" D6" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Vulnerable Flank" id="e327-c086-fc01-592d" hidden="false" type="rule" targetId="00ae-5be8-e442-13bd"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Captain" hidden="false" id="6c10-5b51-5bc0-8d2c">
